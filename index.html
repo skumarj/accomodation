@@ -29,7 +29,6 @@
                     <h3 class="mb-3 text-center">Manager Login</h3>
                     <div id="loginAlert"></div>
                     <form id="loginForm">
-                        <!-- Token field removed from view; handled securely in background -->
                         <div class="mb-3">
                             <label class="form-label">Username</label>
                             <input type="text" id="username" class="form-control" placeholder="e.g. royal_mgr" required>
@@ -94,7 +93,7 @@
         const FILE_PATH = "data/properties.json";
         
         // HARDCODED MASTER TOKEN (Handles backend syncing silently in the background)
-        const MASTER_TOKEN = "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";
+        const MASTER_TOKEN = "ghp_YOUR_ACTUAL_GITHUB_TOKEN_HERE";
 
         let globalData = null;
         let currentProperty = null;
@@ -133,10 +132,16 @@
                     throw new Error("Invalid username or property not assigned.");
                 }
 
-                // Verify password hash
+                // --- HASH DEBUG LOGS ---
                 const hashedInputPassword = await hashPassword(password);
+                console.log("----------------------------------------");
+                console.log("Username attempted:", username);
+                console.log("Hashed input password:", hashedInputPassword);
+                console.log("Stored password hash:", matchedProp.passwordHash);
+                console.log("----------------------------------------");
+
                 if (hashedInputPassword !== matchedProp.passwordHash) {
-                    throw new Error("Incorrect password. Please try again.");
+                    throw new Error("Incorrect password. (Check browser console F12 to see generated hash vs stored hash).");
                 }
 
                 currentProperty = matchedProp;
@@ -197,7 +202,6 @@
             const statusAlert = document.getElementById('statusAlert');
             statusAlert.innerHTML = `<div class="alert alert-info">Checking for recent updates and saving...</div>`;
 
-            // 1. Gather current inputs from the form
             const inputs = document.querySelectorAll('.availability-input');
             const updatedAvailability = {};
             inputs.forEach(input => {
@@ -210,24 +214,21 @@
             });
 
             try {
-                // 2. RE-FETCH latest file from GitHub right before saving to get the freshest SHA
                 const freshRes = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
                     headers: { 'Authorization': `token ${MASTER_TOKEN}` }
                 });
                 if (!freshRes.ok) throw new Error("Could not fetch latest data before saving.");
                 
                 const freshFileData = await freshRes.json();
-                fileSha = freshFileData.sha; // Update to the absolute newest SHA
+                fileSha = freshFileData.sha;
                 
                 const freshDecoded = new TextDecoder().decode(Uint8Array.from(atob(freshFileData.content), c => c.charCodeAt(0)));
                 const latestGlobalData = JSON.parse(freshDecoded);
 
-                // 3. Update only this manager's property data within the latest global tree
                 const propIndex = latestGlobalData.properties.findIndex(p => p.id === currentProperty.id);
                 latestGlobalData.properties[propIndex].availability = updatedAvailability;
                 currentProperty = latestGlobalData.properties[propIndex];
 
-                // 4. Encode and push back to GitHub
                 const jsonString = JSON.stringify(latestGlobalData, null, 2);
                 const encodedContent = btoa(unescape(encodeURIComponent(jsonString)));
 
@@ -250,7 +251,7 @@
                 }
 
                 const resData = await response.json();
-                fileSha = resData.content.sha; // Update SHA for next time
+                fileSha = resData.content.sha;
 
                 statusAlert.innerHTML = `<div class="alert alert-success alert-dismissible fade show" role="alert">
                     <i class="bi bi-check-circle-fill"></i> Availability successfully updated and synchronized with GitHub!

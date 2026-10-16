@@ -76,8 +76,32 @@
       ],
       "availability": {
         "2026-10-16": {
-          "Dormitory Bed": 20,
+          "Dormitory Bed": 15,
           "Family Hall": 3
+        },
+        "2026-10-17": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
+        },
+        "2026-10-18": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
+        },
+        "2026-10-19": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
+        },
+        "2026-10-20": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
+        },
+        "2026-10-21": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
+        },
+        "2026-10-22": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
         }
       }
     }

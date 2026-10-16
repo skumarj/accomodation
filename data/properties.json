@@ -4,7 +4,7 @@
       "id": "hotel_royal_bhuj",
       "name": "Hotel Royal Palace",
       "ownerUsername": "royal_mgr",
-      "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj-Kachchh",
       "categories": [
         { "name": "Deluxe AC", "totalRooms": 15 },
@@ -20,7 +20,7 @@
       "id": "shree_samaj_bhuj",
       "name": "Shree Kutchhi Samajwadi",
       "ownerUsername": "samaj_mgr",
-      "passwordHash": "5a27be69d588523c9ff4c264aa7e594d0e9b626e2a22055104d4ea0a1c1d6836",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
         { "name": "Dormitory Bed", "totalRooms": 50 },

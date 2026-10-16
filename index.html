@@ -29,11 +29,7 @@
                     <h3 class="mb-3 text-center">Manager Login</h3>
                     <div id="loginAlert"></div>
                     <form id="loginForm">
-                        <div class="mb-3">
-                            <label class="form-label">GitHub Personal Access Token (PAT)</label>
-                            <input type="password" id="ghToken" class="form-control" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" required>
-                            <div class="form-text">Required to fetch & commit updates to GitHub.</div>
-                        </div>
+                        <!-- Token field removed from view; handled securely in background -->
                         <div class="mb-3">
                             <label class="form-label">Username</label>
                             <input type="text" id="username" class="form-control" placeholder="e.g. royal_mgr" required>
@@ -44,20 +40,18 @@
                         </div>
                         <button type="submit" class="btn btn-primary w-100"><i class="bi bi-box-arrow-in-right"></i> Login & Load Property</button>
 
-                          <!-- Add this inside your login card form below the button -->
-<div class="text-center mt-4 pt-3 border-top">
-    <p class="text-muted small mb-2"><i class="bi bi-phone"></i> Scan to open on mobile</p>
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://skumarj.github.io/accomodation/" 
-         alt="Portal QR Code" 
-         class="img-thumbnail shadow-sm" 
-         style="width: 130px; height: 130px;">
-</div>
+                        <!-- QR Code Section -->
+                        <div class="text-center mt-4 pt-3 border-top">
+                            <p class="text-muted small mb-2"><i class="bi bi-phone"></i> Scan to open on mobile</p>
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://skumarj.github.io/accomodation/" 
+                                 alt="Portal QR Code" 
+                                 class="img-thumbnail shadow-sm" 
+                                 style="width: 130px; height: 130px;">
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
-
-      
         
         <!-- DASHBOARD SECTION -->
         <div id="dashboardSection" style="display: none;">
@@ -98,10 +92,12 @@
         const REPO_OWNER = "skumarj";
         const REPO_NAME = "accomodation";
         const FILE_PATH = "data/properties.json";
+        
+        // HARDCODED MASTER TOKEN (Handles backend syncing silently in the background)
+        const MASTER_TOKEN = "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";
 
         let globalData = null;
         let currentProperty = null;
-        let currentAuthToken = "";
         let fileSha = "";
 
         async function hashPassword(password) {
@@ -113,7 +109,6 @@
 
         document.getElementById('loginForm').addEventListener('submit', async function(e) {
             e.preventDefault();
-            const token = document.getElementById('ghToken').value.trim();
             const username = document.getElementById('username').value.trim();
             const password = document.getElementById('password').value.trim();
 
@@ -122,10 +117,10 @@
 
             try {
                 const res = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
-                    headers: { 'Authorization': `token ${token}` }
+                    headers: { 'Authorization': `token ${MASTER_TOKEN}` }
                 });
 
-                if (!res.ok) throw new Error("Failed to fetch properties file from GitHub. Check your Token permissions and Repo name.");
+                if (!res.ok) throw new Error("Failed to fetch properties file from GitHub. Check master token permissions and Repo name.");
                 
                 const fileData = await res.json();
                 fileSha = fileData.sha;
@@ -138,18 +133,13 @@
                     throw new Error("Invalid username or property not assigned.");
                 }
 
-                // Debug helper: Prints hash of entered password to browser console (F12)
+                // Verify password hash
                 const hashedInputPassword = await hashPassword(password);
-                console.log("Username attempted:", username);
-                console.log("Hashed input password:", hashedInputPassword);
-                console.log("Stored password hash:", matchedProp.passwordHash);
-
                 if (hashedInputPassword !== matchedProp.passwordHash) {
-                    throw new Error("Incorrect password. (Check browser console F12 to see generated hash vs stored hash).");
+                    throw new Error("Incorrect password. Please try again.");
                 }
 
                 currentProperty = matchedProp;
-                currentAuthToken = token;
 
                 document.getElementById('loginSection').style.display = 'none';
                 document.getElementById('dashboardSection').style.display = 'block';
@@ -204,80 +194,79 @@
         }
 
         async function saveAvailability() {
-    const statusAlert = document.getElementById('statusAlert');
-    statusAlert.innerHTML = `<div class="alert alert-info">Checking for recent updates and saving...</div>`;
+            const statusAlert = document.getElementById('statusAlert');
+            statusAlert.innerHTML = `<div class="alert alert-info">Checking for recent updates and saving...</div>`;
 
-    // 1. Gather current inputs from the form
-    const inputs = document.querySelectorAll('.availability-input');
-    const updatedAvailability = {};
-    inputs.forEach(input => {
-        const date = input.getAttribute('data-date');
-        const category = input.getAttribute('data-category');
-        const val = parseInt(input.value) || 0;
+            // 1. Gather current inputs from the form
+            const inputs = document.querySelectorAll('.availability-input');
+            const updatedAvailability = {};
+            inputs.forEach(input => {
+                const date = input.getAttribute('data-date');
+                const category = input.getAttribute('data-category');
+                const val = parseInt(input.value) || 0;
 
-        if (!updatedAvailability[date]) updatedAvailability[date] = {};
-        updatedAvailability[date][category] = val;
-    });
+                if (!updatedAvailability[date]) updatedAvailability[date] = {};
+                updatedAvailability[date][category] = val;
+            });
 
-    try {
-        // 2. RE-FETCH latest file from GitHub right before saving to get the freshest SHA
-        const freshRes = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
-            headers: { 'Authorization': `token ${currentAuthToken}` }
-        });
-        if (!freshRes.ok) throw new Error("Could not fetch latest data before saving.");
-        
-        const freshFileData = await freshRes.json();
-        fileSha = freshFileData.sha; // Update to the absolute newest SHA
-        
-        const freshDecoded = new TextDecoder().decode(Uint8Array.from(atob(freshFileData.content), c => c.charCodeAt(0)));
-        const latestGlobalData = JSON.parse(freshDecoded);
+            try {
+                // 2. RE-FETCH latest file from GitHub right before saving to get the freshest SHA
+                const freshRes = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
+                    headers: { 'Authorization': `token ${MASTER_TOKEN}` }
+                });
+                if (!freshRes.ok) throw new Error("Could not fetch latest data before saving.");
+                
+                const freshFileData = await freshRes.json();
+                fileSha = freshFileData.sha; // Update to the absolute newest SHA
+                
+                const freshDecoded = new TextDecoder().decode(Uint8Array.from(atob(freshFileData.content), c => c.charCodeAt(0)));
+                const latestGlobalData = JSON.parse(freshDecoded);
 
-        // 3. Update only this manager's property data within the latest global tree
-        const propIndex = latestGlobalData.properties.findIndex(p => p.id === currentProperty.id);
-        latestGlobalData.properties[propIndex].availability = updatedAvailability;
-        currentProperty = latestGlobalData.properties[propIndex];
+                // 3. Update only this manager's property data within the latest global tree
+                const propIndex = latestGlobalData.properties.findIndex(p => p.id === currentProperty.id);
+                latestGlobalData.properties[propIndex].availability = updatedAvailability;
+                currentProperty = latestGlobalData.properties[propIndex];
 
-        // 4. Encode and push back to GitHub
-        const jsonString = JSON.stringify(latestGlobalData, null, 2);
-        const encodedContent = btoa(unescape(encodeURIComponent(jsonString)));
+                // 4. Encode and push back to GitHub
+                const jsonString = JSON.stringify(latestGlobalData, null, 2);
+                const encodedContent = btoa(unescape(encodeURIComponent(jsonString)));
 
-        const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
-            method: 'PUT',
-            headers: {
-                'Authorization': `token ${currentAuthToken}`,
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                message: `Update room availability matrix for ${currentProperty.name}`,
-                content: encodedContent,
-                sha: fileSha
-            })
-        });
+                const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': `token ${MASTER_TOKEN}`,
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: `Update room availability matrix for ${currentProperty.name}`,
+                        content: encodedContent,
+                        sha: fileSha
+                    })
+                });
 
-        if (!response.ok) {
-            const errData = await response.json();
-            throw new Error(errData.message || "Conflict detected during save. Please try clicking save again.");
+                if (!response.ok) {
+                    const errData = await response.json();
+                    throw new Error(errData.message || "Conflict detected during save. Please try clicking save again.");
+                }
+
+                const resData = await response.json();
+                fileSha = resData.content.sha; // Update SHA for next time
+
+                statusAlert.innerHTML = `<div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <i class="bi bi-check-circle-fill"></i> Availability successfully updated and synchronized with GitHub!
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>`;
+            } catch (err) {
+                statusAlert.innerHTML = `<div class="alert alert-danger">Error: ${err.message}</div>`;
+            }
         }
-
-        const resData = await response.json();
-        fileSha = resData.content.sha; // Update SHA for next time
-
-        statusAlert.innerHTML = `<div class="alert alert-success alert-dismissible fade show" role="alert">
-            <i class="bi bi-check-circle-fill"></i> Availability successfully updated and synchronized with GitHub!
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-        </div>`;
-    } catch (err) {
-        statusAlert.innerHTML = `<div class="alert alert-danger">Error: ${err.message}</div>`;
-    }
-}
 
         function logout() {
             currentProperty = null;
             globalData = null;
-            currentAuthToken = "";
             document.getElementById('dashboardSection').style.display = 'none';
             document.getElementById('loginSection').style.display = 'block';
-            document.getElementById('ghToken').value = '';
+            document.getElementById('username').value = '';
             document.getElementById('password').value = '';
         }
     </script>

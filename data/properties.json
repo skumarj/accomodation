@@ -7,55 +7,18 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj-Kachchh",
       "categories": [
-        {
-          "name": "Deluxe AC",
-          "totalRooms": 15
-        },
-        {
-          "name": "Standard Non-AC",
-          "totalRooms": 25
-        },
-        {
-          "name": "Suite",
-          "totalRooms": 5
-        }
+        { "name": "Deluxe AC", "totalRooms": 15 },
+        { "name": "Standard Non-AC", "totalRooms": 25 },
+        { "name": "Suite", "totalRooms": 5 }
       ],
       "availability": {
-        "2026-10-16": {
-          "Deluxe AC": 15,
-          "Standard Non-AC": 8,
-          "Suite": 2
-        },
-        "2026-10-17": {
-          "Deluxe AC": 3,
-          "Standard Non-AC": 12,
-          "Suite": 2
-        },
-        "2026-10-18": {
-          "Deluxe AC": 15,
-          "Standard Non-AC": 25,
-          "Suite": 5
-        },
-        "2026-10-19": {
-          "Deluxe AC": 15,
-          "Standard Non-AC": 25,
-          "Suite": 5
-        },
-        "2026-10-20": {
-          "Deluxe AC": 15,
-          "Standard Non-AC": 25,
-          "Suite": 5
-        },
-        "2026-10-21": {
-          "Deluxe AC": 15,
-          "Standard Non-AC": 25,
-          "Suite": 5
-        },
-        "2026-10-22": {
-          "Deluxe AC": 15,
-          "Standard Non-AC": 25,
-          "Suite": 5
-        }
+        "2026-10-16": { "Deluxe AC": 15, "Standard Non-AC": 8, "Suite": 2 },
+        "2026-10-17": { "Deluxe AC": 3, "Standard Non-AC": 12, "Suite": 2 },
+        "2026-10-18": { "Deluxe AC": 15, "Standard Non-AC": 25, "Suite": 5 },
+        "2026-10-19": { "Deluxe AC": 15, "Standard Non-AC": 25, "Suite": 5 },
+        "2026-10-20": { "Deluxe AC": 15, "Standard Non-AC": 25, "Suite": 5 },
+        "2026-10-21": { "Deluxe AC": 15, "Standard Non-AC": 25, "Suite": 5 },
+        "2026-10-22": { "Deluxe AC": 15, "Standard Non-AC": 25, "Suite": 5 }
       }
     },
     {
@@ -65,44 +28,1887 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        {
-          "name": "Dormitory Bed",
-          "totalRooms": 50
-        },
-        {
-          "name": "Family Hall",
-          "totalRooms": 10
-        }
+        { "name": "Dormitory Bed", "totalRooms": 50 },
+        { "name": "Family Hall", "totalRooms": 10 }
       ],
       "availability": {
-        "2026-10-16": {
-          "Dormitory Bed": 15,
-          "Family Hall": 3
-        },
-        "2026-10-17": {
-          "Dormitory Bed": 50,
-          "Family Hall": 10
-        },
-        "2026-10-18": {
-          "Dormitory Bed": 50,
-          "Family Hall": 10
-        },
-        "2026-10-19": {
-          "Dormitory Bed": 50,
-          "Family Hall": 10
-        },
-        "2026-10-20": {
-          "Dormitory Bed": 50,
-          "Family Hall": 10
-        },
-        "2026-10-21": {
-          "Dormitory Bed": 50,
-          "Family Hall": 10
-        },
-        "2026-10-22": {
-          "Dormitory Bed": 50,
-          "Family Hall": 10
-        }
+        "2026-10-16": { "Dormitory Bed": 15, "Family Hall": 3 },
+        "2026-10-17": { "Dormitory Bed": 50, "Family Hall": 10 },
+        "2026-10-18": { "Dormitory Bed": 50, "Family Hall": 10 },
+        "2026-10-19": { "Dormitory Bed": 50, "Family Hall": 10 },
+        "2026-10-20": { "Dormitory Bed": 50, "Family Hall": 10 },
+        "2026-10-21": { "Dormitory Bed": 50, "Family Hall": 10 },
+        "2026-10-22": { "Dormitory Bed": 50, "Family Hall": 10 }
+      }
+    },
+    {
+      "id": "hotel_prince_bhuj",
+      "name": "Hotel Prince",
+      "ownerUsername": "prince_mgr",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Station Road, Bhuj",
+      "categories": [
+        { "name": "Executive AC", "totalRooms": 20 },
+        { "name": "Standard AC", "totalRooms": 30 }
+      ],
+      "availability": {
+        "2026-10-16": { "Executive AC": 10, "Standard AC": 15 },
+        "2026-10-17": { "Executive AC": 20, "Standard AC": 30 },
+        "2026-10-18": { "Executive AC": 20, "Standard AC": 30 },
+        "2026-10-19": { "Executive AC": 20, "Standard AC": 30 },
+        "2026-10-20": { "Executive AC": 20, "Standard AC": 30 },
+        "2026-10-21": { "Executive AC": 20, "Standard AC": 30 },
+        "2026-10-22": { "Executive AC": 20, "Standard AC": 30 }
+      }
+    },
+    {
+      "id": "white_desert_camp",
+      "name": "White Desert Resort",
+      "ownerUsername": "white_mgr",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Dhordo",
+      "categories": [
+        { "name": "Luxury Swiss Tent", "totalRooms": 40 },
+        { "name": "Royal Tent", "totalRooms": 10 }
+      ],
+      "availability": {
+        "2026-10-16": { "Luxury Swiss Tent": 25, "Royal Tent": 5 },
+        "2026-10-17": { "Luxury Swiss Tent": 40, "Royal Tent": 10 },
+        "2026-10-18": { "Luxury Swiss Tent": 40, "Royal Tent": 10 },
+        "2026-10-19": { "Luxury Swiss Tent": 40, "Royal Tent": 10 },
+        "2026-10-20": { "Luxury Swiss Tent": 40, "Royal Tent": 10 },
+        "2026-10-21": { "Luxury Swiss Tent": 40, "Royal Tent": 10 },
+        "2026-10-22": { "Luxury Swiss Tent": 40, "Royal Tent": 10 }
+      }
+    },
+    {
+      "id": "kutch_heritage_homestay",
+      "name": "Kutch Heritage Homestay",
+      "ownerUsername": "heritage_mgr",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhujodi",
+      "categories": [
+        { "name": "Traditional Bhunga", "totalRooms": 8 },
+        { "name": "Courtyard Room", "totalRooms": 12 }
+      ],
+      "availability": {
+        "2026-10-16": { "Traditional Bhunga": 4, "Courtyard Room": 6 },
+        "2026-10-17": { "Traditional Bhunga": 8, "Courtyard Room": 12 },
+        "2026-10-18": { "Traditional Bhunga": 8, "Courtyard Room": 12 },
+        "2026-10-19": { "Traditional Bhunga": 8, "Courtyard Room": 12 },
+        "2026-10-20": { "Traditional Bhunga": 8, "Courtyard Room": 12 },
+        "2026-10-21": { "Traditional Bhunga": 8, "Courtyard Room": 12 },
+        "2026-10-22": { "Traditional Bhunga": 8, "Courtyard Room": 12 }
+      }
+    },
+    {
+      "id": "hotel_Kutch_paradise",
+      "name": "Hotel Kutch Paradise",
+      "ownerUsername": "paradise_mgr",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Super Deluxe", "totalRooms": 25 },
+        { "name": "Family Suite", "totalRooms": 5 }
+      ],
+      "availability": {
+        "2026-10-16": { "Super Deluxe": 20, "Family Suite": 4 },
+        "2026-10-17": { "Super Deluxe": 25, "Family Suite": 5 },
+        "2026-10-18": { "Super Deluxe": 25, "Family Suite": 5 },
+        "2026-10-19": { "Super Deluxe": 25, "Family Suite": 5 },
+        "2026-10-20": { "Super Deluxe": 25, "Family Suite": 5 },
+        "2026-10-21": { "Super Deluxe": 25, "Family Suite": 5 },
+        "2026-10-22": { "Super Deluxe": 25, "Family Suite": 5 }
+      }
+    },
+    {
+      "id": "toran_resort_mandvi",
+      "name": "Toran Tourist Bungalow",
+      "ownerUsername": "toran_mandvi_mgr",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Mandvi Beach",
+      "categories": [
+        { "name": "Beach View AC", "totalRooms": 15 },
+        { "name": "Standard Cottage", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Beach View AC": 5, "Standard Cottage": 10 },
+        "2026-10-17": { "Beach View AC": 15, "Standard Cottage": 20 },
+        "2026-10-18": { "Beach View AC": 15, "Standard Cottage": 20 },
+        "2026-10-19": { "Beach View AC": 15, "Standard Cottage": 20 },
+        "2026-10-20": { "Beach View AC": 15, "Standard Cottage": 20 },
+        "2026-10-21": { "Beach View AC": 15, "Standard Cottage": 20 },
+        "2026-10-22": { "Beach View AC": 15, "Standard Cottage": 20 }
+      }
+    },
+    {
+      "id": "shanti_palace_bhuj",
+      "name": "Hotel Shanti Palace",
+      "ownerUsername": "shanti_mgr",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe Room", "totalRooms": 30 },
+        { "name": "Economy Room", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe Room": 20, "Economy Room": 15 },
+        "2026-10-17": { "Deluxe Room": 30, "Economy Room": 20 },
+        "2026-10-18": { "Deluxe Room": 30, "Economy Room": 20 },
+        "2026-10-19": { "Deluxe Room": 30, "Economy Room": 20 },
+        "2026-10-20": { "Deluxe Room": 30, "Economy Room": 20 },
+        "2026-10-21": { "Deluxe Room": 30, "Economy Room": 20 },
+        "2026-10-22": { "Deluxe Room": 30, "Economy Room": 20 }
+      }
+    },
+    {
+      "id": "Click_hotel_bhuj",
+      "name": "Click Hotel Bhuj",
+      "ownerUsername": "click_mgr",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Airport Road, Bhuj",
+      "categories": [
+        { "name": "Superior Room", "totalRooms": 45 },
+        { "name": "Club Suite", "totalRooms": 10 }
+      ],
+      "availability": {
+        "2026-10-16": { "Superior Room": 30, "Club Suite": 8 },
+        "2026-10-17": { "Superior Room": 45, "Club Suite": 10 },
+        "2026-10-18": { "Superior Room": 45, "Club Suite": 10 },
+        "2026-10-19": { "Superior Room": 45, "Club Suite": 10 },
+        "2026-10-20": { "Superior Room": 45, "Club Suite": 10 },
+        "2026-10-21": { "Superior Room": 45, "Club Suite": 10 },
+        "2026-10-22": { "Superior Room": 45, "Club Suite": 10 }
+      }
+    },
+    {
+      "id": "ram_dev_hotel",
+      "name": "Hotel Ramdev",
+      "ownerUsername": "ramdev_mgr",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard Room", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard Room": 18 },
+        "2026-10-17": { "Standard Room": 25 },
+        "2026-10-18": { "Standard Room": 25 },
+        "2026-10-19": { "Standard Room": 25 },
+        "2026-10-20": { "Standard Room": 25 },
+        "2026-10-21": { "Standard Room": 25 },
+        "2026-10-22": { "Standard Room": 25 }
+      }
+    },
+    {
+      "id": "property_11",
+      "name": "Kutch Classic Hotel",
+      "ownerUsername": "mgr_11",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 30 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 20 },
+        "2026-10-17": { "AC Room": 30 },
+        "2026-10-18": { "AC Room": 30 },
+        "2026-10-19": { "AC Room": 30 },
+        "2026-10-20": { "AC Room": 30 },
+        "2026-10-21": { "AC Room": 30 },
+        "2026-10-22": { "AC Room": 30 }
+      }
+    },
+    {
+      "id": "property_12",
+      "name": "Regal Hotel Bhuj",
+      "ownerUsername": "mgr_12",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 12 },
+        "2026-10-17": { "Deluxe": 20 },
+        "2026-10-18": { "Deluxe": 20 },
+        "2026-10-19": { "Deluxe": 20 },
+        "2026-10-20": { "Deluxe": 20 },
+        "2026-10-21": { "Deluxe": 20 },
+        "2026-10-22": { "Deluxe": 20 }
+      }
+    },
+    {
+      "id": "property_13",
+      "name": "Hotel Gangrut",
+      "ownerUsername": "mgr_13",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard Room", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard Room": 10 },
+        "2026-10-17": { "Standard Room": 15 },
+        "2026-10-18": { "Standard Room": 15 },
+        "2026-10-19": { "Standard Room": 15 },
+        "2026-10-20": { "Standard Room": 15 },
+        "2026-10-21": { "Standard Room": 15 },
+        "2026-10-22": { "Standard Room": 15 }
+      }
+    },
+    {
+      "id": "property_14",
+      "name": "Hotel Sahara",
+      "ownerUsername": "mgr_14",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 12 },
+        "2026-10-17": { "AC Room": 22 },
+        "2026-10-18": { "AC Room": 22 },
+        "2026-10-19": { "AC Room": 22 },
+        "2026-10-20": { "AC Room": 22 },
+        "2026-10-21": { "AC Room": 22 },
+        "2026-10-22": { "AC Room": 22 }
+      }
+    },
+    {
+      "id": "property_15",
+      "name": "Kutch Ankur Hotel",
+      "ownerUsername": "mgr_15",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 10 },
+        "2026-10-17": { "Deluxe": 18 },
+        "2026-10-18": { "Deluxe": 18 },
+        "2026-10-19": { "Deluxe": 18 },
+        "2026-10-20": { "Deluxe": 18 },
+        "2026-10-21": { "Deluxe": 18 },
+        "2026-10-22": { "Deluxe": 18 }
+      }
+    },
+    {
+      "id": "property_16",
+      "name": "Nilanth Hotel",
+      "ownerUsername": "mgr_16",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Suite", "totalRooms": 10 }
+      ],
+      "availability": {
+        "2026-10-16": { "Suite": 5 },
+        "2026-10-17": { "Suite": 10 },
+        "2026-10-18": { "Suite": 10 },
+        "2026-10-19": { "Suite": 10 },
+        "2026-10-20": { "Suite": 10 },
+        "2026-10-21": { "Suite": 10 },
+        "2026-10-22": { "Suite": 10 }
+      }
+    },
+    {
+      "id": "property_17",
+      "name": "Hotel Shyam",
+      "ownerUsername": "mgr_17",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 15 },
+        "2026-10-17": { "Standard": 25 },
+        "2026-10-18": { "Standard": 25 },
+        "2026-10-19": { "Standard": 25 },
+        "2026-10-20": { "Standard": 25 },
+        "2026-10-21": { "Standard": 25 },
+        "2026-10-22": { "Standard": 25 }
+      }
+    },
+    {
+      "id": "property_18",
+      "name": "Hotel Gokul",
+      "ownerUsername": "mgr_18",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 14 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 8 },
+        "2026-10-17": { "AC Room": 14 },
+        "2026-10-18": { "AC Room": 14 },
+        "2026-10-19": { "AC Room": 14 },
+        "2026-10-20": { "AC Room": 14 },
+        "2026-10-21": { "AC Room": 14 },
+        "2026-10-22": { "AC Room": 14 }
+      }
+    },
+    {
+      "id": "property_19",
+      "name": "Hotel Greenland",
+      "ownerUsername": "mgr_19",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Cottage", "totalRooms": 12 }
+      ],
+      "availability": {
+        "2026-10-16": { "Cottage": 6 },
+        "2026-10-17": { "Cottage": 12 },
+        "2026-10-18": { "Cottage": 12 },
+        "2026-10-19": { "Cottage": 12 },
+        "2026-10-20": { "Cottage": 12 },
+        "2026-10-21": { "Cottage": 12 },
+        "2026-10-22": { "Cottage": 12 }
+      }
+    },
+    {
+      "id": "property_20",
+      "name": "Hotel Kutch Grand",
+      "ownerUsername": "mgr_20",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Luxury Room", "totalRooms": 35 }
+      ],
+      "availability": {
+        "2026-10-16": { "Luxury Room": 20 },
+        "2026-10-17": { "Luxury Room": 35 },
+        "2026-10-18": { "Luxury Room": 35 },
+        "2026-10-19": { "Luxury Room": 35 },
+        "2026-10-20": { "Luxury Room": 35 },
+        "2026-10-21": { "Luxury Room": 35 },
+        "2026-10-22": { "Luxury Room": 35 }
+      }
+    },
+    {
+      "id": "property_21",
+      "name": "Hotel Oasis",
+      "ownerUsername": "mgr_21",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard Room", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard Room": 12 },
+        "2026-10-17": { "Standard Room": 20 },
+        "2026-10-18": { "Standard Room": 20 },
+        "2026-10-19": { "Standard Room": 20 },
+        "2026-10-20": { "Standard Room": 20 },
+        "2026-10-21": { "Standard Room": 20 },
+        "2026-10-22": { "Standard Room": 20 }
+      }
+    },
+    {
+      "id": "property_22",
+      "name": "Hotel Marigold",
+      "ownerUsername": "mgr_22",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Executive Room", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "Executive Room": 10 },
+        "2026-10-17": { "Executive Room": 18 },
+        "2026-10-18": { "Executive Room": 18 },
+        "2026-10-19": { "Executive Room": 18 },
+        "2026-10-20": { "Executive Room": 18 },
+        "2026-10-21": { "Executive Room": 18 },
+        "2026-10-22": { "Executive Room": 18 }
+      }
+    },
+    {
+      "id": "property_23",
+      "name": "Hotel Blue Diamond",
+      "ownerUsername": "mgr_23",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe AC", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe AC": 15 },
+        "2026-10-17": { "Deluxe AC": 25 },
+        "2026-10-18": { "Deluxe AC": 25 },
+        "2026-10-19": { "Deluxe AC": 25 },
+        "2026-10-20": { "Deluxe AC": 25 },
+        "2026-10-21": { "Deluxe AC": 25 },
+        "2026-10-22": { "Deluxe AC": 25 }
+      }
+    },
+    {
+      "id": "property_24",
+      "name": "Hotel Surya",
+      "ownerUsername": "mgr_24",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard Room", "totalRooms": 30 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard Room": 18 },
+        "2026-10-17": { "Standard Room": 30 },
+        "2026-10-18": { "Standard Room": 30 },
+        "2026-10-19": { "Standard Room": 30 },
+        "2026-10-20": { "Standard Room": 30 },
+        "2026-10-21": { "Standard Room": 30 },
+        "2026-10-22": { "Standard Room": 30 }
+      }
+    },
+    {
+      "id": "property_25",
+      "name": "Hotel Radhika",
+      "ownerUsername": "mgr_25",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 10 },
+        "2026-10-17": { "AC Room": 15 },
+        "2026-10-18": { "AC Room": 15 },
+        "2026-10-19": { "AC Room": 15 },
+        "2026-10-20": { "AC Room": 15 },
+        "2026-10-21": { "AC Room": 15 },
+        "2026-10-22": { "AC Room": 15 }
+      }
+    },
+    {
+      "id": "property_26",
+      "name": "Hotel Everest",
+      "ownerUsername": "mgr_26",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 12 },
+        "2026-10-17": { "Deluxe": 22 },
+        "2026-10-18": { "Deluxe": 22 },
+        "2026-10-19": { "Deluxe": 22 },
+        "2026-10-20": { "Deluxe": 22 },
+        "2026-10-21": { "Deluxe": 22 },
+        "2026-10-22": { "Deluxe": 22 }
+      }
+    },
+    {
+      "id": "property_27",
+      "name": "Hotel Kutch Star",
+      "ownerUsername": "mgr_27",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Super Deluxe", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Super Deluxe": 14 },
+        "2026-10-17": { "Super Deluxe": 20 },
+        "2026-10-18": { "Super Deluxe": 20 },
+        "2026-10-19": { "Super Deluxe": 20 },
+        "2026-10-20": { "Super Deluxe": 20 },
+        "2026-10-21": { "Super Deluxe": 20 },
+        "2026-10-22": { "Super Deluxe": 20 }
+      }
+    },
+    {
+      "id": "property_28",
+      "name": "Hotel Laxmi",
+      "ownerUsername": "mgr_28",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard Non-AC", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard Non-AC": 10 },
+        "2026-10-17": { "Standard Non-AC": 18 },
+        "2026-10-18": { "Standard Non-AC": 18 },
+        "2026-10-19": { "Standard Non-AC": 18 },
+        "2026-10-20": { "Standard Non-AC": 18 },
+        "2026-10-21": { "Standard Non-AC": 18 },
+        "2026-10-22": { "Standard Non-AC": 18 }
+      }
+    },
+    {
+      "id": "property_29",
+      "name": "Hotel Shivam",
+      "ownerUsername": "mgr_29",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 15 },
+        "2026-10-17": { "AC Room": 25 },
+        "2026-10-18": { "AC Room": 25 },
+        "2026-10-19": { "AC Room": 25 },
+        "2026-10-20": { "AC Room": 25 },
+        "2026-10-21": { "AC Room": 25 },
+        "2026-10-22": { "AC Room": 25 }
+      }
+    },
+    {
+      "id": "property_30",
+      "name": "Hotel Tulsi",
+      "ownerUsername": "mgr_30",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 16 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 10 },
+        "2026-10-17": { "Deluxe": 16 },
+        "2026-10-18": { "Deluxe": 16 },
+        "2026-10-19": { "Deluxe": 16 },
+        "2026-10-20": { "Deluxe": 16 },
+        "2026-10-21": { "Deluxe": 16 },
+        "2026-10-22": { "Deluxe": 16 }
+      }
+    },
+    {
+      "id": "property_31",
+      "name": "Hotel Krishna",
+      "ownerUsername": "mgr_31",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 12 },
+        "2026-10-17": { "Standard": 20 },
+        "2026-10-18": { "Standard": 20 },
+        "2026-10-19": { "Standard": 20 },
+        "2026-10-20": { "Standard": 20 },
+        "2026-10-21": { "Standard": 20 },
+        "2026-10-22": { "Standard": 20 }
+      }
+    },
+    {
+      "id": "property_32",
+      "name": "Hotel Sagar",
+      "ownerUsername": "mgr_32",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 24 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 14 },
+        "2026-10-17": { "AC Room": 24 },
+        "2026-10-18": { "AC Room": 24 },
+        "2026-10-19": { "AC Room": 24 },
+        "2026-10-20": { "AC Room": 24 },
+        "2026-10-21": { "AC Room": 24 },
+        "2026-10-22": { "AC Room": 24 }
+      }
+    },
+    {
+      "id": "property_33",
+      "name": "Hotel Kutch Regency",
+      "ownerUsername": "mgr_33",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 30 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 18 },
+        "2026-10-17": { "Deluxe": 30 },
+        "2026-10-18": { "Deluxe": 30 },
+        "2026-10-19": { "Deluxe": 30 },
+        "2026-10-20": { "Deluxe": 30 },
+        "2026-10-21": { "Deluxe": 30 },
+        "2026-10-22": { "Deluxe": 30 }
+      }
+    },
+    {
+      "id": "property_34",
+      "name": "Hotel Virat",
+      "ownerUsername": "mgr_34",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 8 },
+        "2026-10-17": { "Standard": 15 },
+        "2026-10-18": { "Standard": 15 },
+        "2026-10-19": { "Standard": 15 },
+        "2026-10-20": { "Standard": 15 },
+        "2026-10-21": { "Standard": 15 },
+        "2026-10-22": { "Standard": 15 }
+      }
+    },
+    {
+      "id": "property_35",
+      "name": "Hotel Apex",
+      "ownerUsername": "mgr_35",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Executive", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Executive": 12 },
+        "2026-10-17": { "Executive": 20 },
+        "2026-10-18": { "Executive": 20 },
+        "2026-10-19": { "Executive": 20 },
+        "2026-10-20": { "Executive": 20 },
+        "2026-10-21": { "Executive": 20 },
+        "2026-10-22": { "Executive": 20 }
+      }
+    },
+    {
+      "id": "property_36",
+      "name": "Hotel Darshan",
+      "ownerUsername": "mgr_36",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 10 },
+        "2026-10-17": { "AC Room": 18 },
+        "2026-10-18": { "AC Room": 18 },
+        "2026-10-19": { "AC Room": 18 },
+        "2026-10-20": { "AC Room": 18 },
+        "2026-10-21": { "AC Room": 18 },
+        "2026-10-22": { "AC Room": 18 }
+      }
+    },
+    {
+      "id": "property_37",
+      "name": "Hotel Silver",
+      "ownerUsername": "mgr_37",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 14 },
+        "2026-10-17": { "Deluxe": 22 },
+        "2026-10-18": { "Deluxe": 22 },
+        "2026-10-19": { "Deluxe": 22 },
+        "2026-10-20": { "Deluxe": 22 },
+        "2026-10-21": { "Deluxe": 22 },
+        "2026-10-22": { "Deluxe": 22 }
+      }
+    },
+    {
+      "id": "property_38",
+      "name": "Hotel Golden",
+      "ownerUsername": "mgr_38",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Suite", "totalRooms": 10 }
+      ],
+      "availability": {
+        "2026-10-16": { "Suite": 6 },
+        "2026-10-17": { "Suite": 10 },
+        "2026-10-18": { "Suite": 10 },
+        "2026-10-19": { "Suite": 10 },
+        "2026-10-20": { "Suite": 10 },
+        "2026-10-21": { "Suite": 10 },
+        "2026-10-22": { "Suite": 10 }
+      }
+    },
+    {
+      "id": "property_39",
+      "name": "Hotel Diamond",
+      "ownerUsername": "mgr_39",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 15 },
+        "2026-10-17": { "Standard": 25 },
+        "2026-10-18": { "Standard": 25 },
+        "2026-10-19": { "Standard": 25 },
+        "2026-10-20": { "Standard": 25 },
+        "2026-10-21": { "Standard": 25 },
+        "2026-10-22": { "Standard": 25 }
+      }
+    },
+    {
+      "id": "property_40",
+      "name": "Hotel Platinum",
+      "ownerUsername": "mgr_40",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Luxury Room", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Luxury Room": 12 },
+        "2026-10-17": { "Luxury Room": 20 },
+        "2026-10-18": { "Luxury Room": 20 },
+        "2026-10-19": { "Luxury Room": 20 },
+        "2026-10-20": { "Luxury Room": 20 },
+        "2026-10-21": { "Luxury Room": 20 },
+        "2026-10-22": { "Luxury Room": 20 }
+      }
+    },
+    {
+      "id": "property_41",
+      "name": "Hotel Star View",
+      "ownerUsername": "mgr_41",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 8 },
+        "2026-10-17": { "AC Room": 15 },
+        "2026-10-18": { "AC Room": 15 },
+        "2026-10-19": { "AC Room": 15 },
+        "2026-10-20": { "AC Room": 15 },
+        "2026-10-21": { "AC Room": 15 },
+        "2026-10-22": { "AC Room": 15 }
+      }
+    },
+    {
+      "id": "property_42",
+      "name": "Hotel Sunbeam",
+      "ownerUsername": "mgr_42",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 12 },
+        "2026-10-17": { "Deluxe": 20 },
+        "2026-10-18": { "Deluxe": 20 },
+        "2026-10-19": { "Deluxe": 20 },
+        "2026-10-20": { "Deluxe": 20 },
+        "2026-10-21": { "Deluxe": 20 },
+        "2026-10-22": { "Deluxe": 20 }
+      }
+    },
+    {
+      "id": "property_43",
+      "name": "Hotel Moonlight",
+      "ownerUsername": "mgr_43",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 10 },
+        "2026-10-17": { "Standard": 18 },
+        "2026-10-18": { "Standard": 18 },
+        "2026-10-19": { "Standard": 18 },
+        "2026-10-20": { "Standard": 18 },
+        "2026-10-21": { "Standard": 18 },
+        "2026-10-22": { "Standard": 18 }
+      }
+    },
+    {
+      "id": "property_44",
+      "name": "Hotel Horizon",
+      "ownerUsername": "mgr_44",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Executive", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "Executive": 14 },
+        "2026-10-17": { "Executive": 22 },
+        "2026-10-18": { "Executive": 22 },
+        "2026-10-19": { "Executive": 22 },
+        "2026-10-20": { "Executive": 22 },
+        "2026-10-21": { "Executive": 22 },
+        "2026-10-22": { "Executive": 22 }
+      }
+    },
+    {
+      "id": "property_45",
+      "name": "Hotel City Point",
+      "ownerUsername": "mgr_45",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 15 },
+        "2026-10-17": { "AC Room": 25 },
+        "2026-10-18": { "AC Room": 25 },
+        "2026-10-19": { "AC Room": 25 },
+        "2026-10-20": { "AC Room": 25 },
+        "2026-10-21": { "AC Room": 25 },
+        "2026-10-22": { "AC Room": 25 }
+      }
+    },
+    {
+      "id": "property_46",
+      "name": "Hotel Highway Inn",
+      "ownerUsername": "mgr_46",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj Highway",
+      "categories": [
+        { "name": "Standard", "totalRooms": 30 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 20 },
+        "2026-10-17": { "Standard": 30 },
+        "2026-10-18": { "Standard": 30 },
+        "2026-10-19": { "Standard": 30 },
+        "2026-10-20": { "Standard": 30 },
+        "2026-10-21": { "Standard": 30 },
+        "2026-10-22": { "Standard": 30 }
+      }
+    },
+    {
+      "id": "property_47",
+      "name": "Hotel Residency",
+      "ownerUsername": "mgr_47",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 12 },
+        "2026-10-17": { "Deluxe": 20 },
+        "2026-10-18": { "Deluxe": 20 },
+        "2026-10-19": { "Deluxe": 20 },
+        "2026-10-20": { "Deluxe": 20 },
+        "2026-10-21": { "Deluxe": 20 },
+        "2026-10-22": { "Deluxe": 20 }
+      }
+    },
+    {
+      "id": "property_48",
+      "name": "Hotel Executive",
+      "ownerUsername": "mgr_48",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Executive Room", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "Executive Room": 9 },
+        "2026-10-17": { "Executive Room": 15 },
+        "2026-10-18": { "Executive Room": 15 },
+        "2026-10-19": { "Executive Room": 15 },
+        "2026-10-20": { "Executive Room": 15 },
+        "2026-10-21": { "Executive Room": 15 },
+        "2026-10-22": { "Executive Room": 15 }
+      }
+    },
+    {
+      "id": "property_49",
+      "name": "Hotel Continental",
+      "ownerUsername": "mgr_49",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 16 },
+        "2026-10-17": { "AC Room": 25 },
+        "2026-10-18": { "AC Room": 25 },
+        "2026-10-19": { "AC Room": 25 },
+        "2026-10-20": { "AC Room": 25 },
+        "2026-10-21": { "AC Room": 25 },
+        "2026-10-22": { "AC Room": 25 }
+      }
+    },
+    {
+      "id": "property_50",
+      "name": "Hotel Imperial",
+      "ownerUsername": "mgr_50",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Suite", "totalRooms": 12 }
+      ],
+      "availability": {
+        "2026-10-16": { "Suite": 7 },
+        "2026-10-17": { "Suite": 12 },
+        "2026-10-18": { "Suite": 12 },
+        "2026-10-19": { "Suite": 12 },
+        "2026-10-20": { "Suite": 12 },
+        "2026-10-21": { "Suite": 12 },
+        "2026-10-22": { "Suite": 12 }
+      }
+    },
+    {
+      "id": "property_51",
+      "name": "Hotel Midtown",
+      "ownerUsername": "mgr_51",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 12 },
+        "2026-10-17": { "Standard": 20 },
+        "2026-10-18": { "Standard": 20 },
+        "2026-10-19": { "Standard": 20 },
+        "2026-10-20": { "Standard": 20 },
+        "2026-10-21": { "Standard": 20 },
+        "2026-10-22": { "Standard": 20 }
+      }
+    },
+    {
+      "id": "property_52",
+      "name": "Hotel Apex Palace",
+      "ownerUsername": "mgr_52",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 14 },
+        "2026-10-17": { "Deluxe": 22 },
+        "2026-10-18": { "Deluxe": 22 },
+        "2026-10-19": { "Deluxe": 22 },
+        "2026-10-20": { "Deluxe": 22 },
+        "2026-10-21": { "Deluxe": 22 },
+        "2026-10-22": { "Deluxe": 22 }
+      }
+    },
+    {
+      "id": "property_53",
+      "name": "Hotel Central",
+      "ownerUsername": "mgr_53",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 10 },
+        "2026-10-17": { "AC Room": 18 },
+        "2026-10-18": { "AC Room": 18 },
+        "2026-10-19": { "AC Room": 18 },
+        "2026-10-20": { "AC Room": 18 },
+        "2026-10-21": { "AC Room": 18 },
+        "2026-10-22": { "AC Room": 18 }
+      }
+    },
+    {
+      "id": "property_54",
+      "name": "Hotel Plaza",
+      "ownerUsername": "mgr_54",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 15 },
+        "2026-10-17": { "Standard": 25 },
+        "2026-10-18": { "Standard": 25 },
+        "2026-10-19": { "Standard": 25 },
+        "2026-10-20": { "Standard": 25 },
+        "2026-10-21": { "Standard": 25 },
+        "2026-10-22": { "Standard": 25 }
+      }
+    },
+    {
+      "id": "property_55",
+      "name": "Hotel Park View",
+      "ownerUsername": "mgr_55",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 12 },
+        "2026-10-17": { "Deluxe": 20 },
+        "2026-10-18": { "Deluxe": 20 },
+        "2026-10-19": { "Deluxe": 20 },
+        "2026-10-20": { "Deluxe": 20 },
+        "2026-10-21": { "Deluxe": 20 },
+        "2026-10-22": { "Deluxe": 20 }
+      }
+    },
+    {
+      "id": "property_56",
+      "name": "Hotel Lake View",
+      "ownerUsername": "mgr_56",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Hamirsar Lake, Bhuj",
+      "categories": [
+        { "name": "Lake View AC", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "Lake View AC": 8 },
+        "2026-10-17": { "Lake View AC": 15 },
+        "2026-10-18": { "Lake View AC": 15 },
+        "2026-10-19": { "Lake View AC": 15 },
+        "2026-10-20": { "Lake View AC": 15 },
+        "2026-10-21": { "Lake View AC": 15 },
+        "2026-10-22": { "Lake View AC": 15 }
+      }
+    },
+    {
+      "id": "property_57",
+      "name": "Hotel City Inn",
+      "ownerUsername": "mgr_57",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 12 },
+        "2026-10-17": { "Standard": 22 },
+        "2026-10-18": { "Standard": 22 },
+        "2026-10-19": { "Standard": 22 },
+        "2026-10-20": { "Standard": 22 },
+        "2026-10-21": { "Standard": 22 },
+        "2026-10-22": { "Standard": 22 }
+      }
+    },
+    {
+      "id": "property_58",
+      "name": "Hotel Relax",
+      "ownerUsername": "mgr_58",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 10 },
+        "2026-10-17": { "AC Room": 18 },
+        "2026-10-18": { "AC Room": 18 },
+        "2026-10-19": { "AC Room": 18 },
+        "2026-10-20": { "AC Room": 18 },
+        "2026-10-21": { "AC Room": 18 },
+        "2026-10-22": { "AC Room": 18 }
+      }
+    },
+    {
+      "id": "property_59",
+      "name": "Hotel Comfort",
+      "ownerUsername": "mgr_59",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 15 },
+        "2026-10-17": { "Deluxe": 25 },
+        "2026-10-18": { "Deluxe": 25 },
+        "2026-10-19": { "Deluxe": 25 },
+        "2026-10-20": { "Deluxe": 25 },
+        "2026-10-21": { "Deluxe": 25 },
+        "2026-10-22": { "Deluxe": 25 }
+      }
+    },
+    {
+      "id": "property_60",
+      "name": "Hotel Cozy",
+      "ownerUsername": "mgr_60",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 8 },
+        "2026-10-17": { "Standard": 15 },
+        "2026-10-18": { "Standard": 15 },
+        "2026-10-19": { "Standard": 15 },
+        "2026-10-20": { "Standard": 15 },
+        "2026-10-21": { "Standard": 15 },
+        "2026-10-22": { "Standard": 15 }
+      }
+    },
+    {
+      "id": "property_61",
+      "name": "Hotel Horizon View",
+      "ownerUsername": "mgr_61",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 12 },
+        "2026-10-17": { "AC Room": 20 },
+        "2026-10-18": { "AC Room": 20 },
+        "2026-10-19": { "AC Room": 20 },
+        "2026-10-20": { "AC Room": 20 },
+        "2026-10-21": { "AC Room": 20 },
+        "2026-10-22": { "AC Room": 20 }
+      }
+    },
+    {
+      "id": "property_62",
+      "name": "Hotel Sunrise",
+      "ownerUsername": "mgr_62",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 12 },
+        "2026-10-17": { "Deluxe": 22 },
+        "2026-10-18": { "Deluxe": 22 },
+        "2026-10-19": { "Deluxe": 22 },
+        "2026-10-20": { "Deluxe": 22 },
+        "2026-10-21": { "Deluxe": 22 },
+        "2026-10-22": { "Deluxe": 22 }
+      }
+    },
+    {
+      "id": "property_63",
+      "name": "Hotel Sunset",
+      "ownerUsername": "mgr_63",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Mandvi",
+      "categories": [
+        { "name": "Sea Facing", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "Sea Facing": 8 },
+        "2026-10-17": { "Sea Facing": 15 },
+        "2026-10-18": { "Sea Facing": 15 },
+        "2026-10-19": { "Sea Facing": 15 },
+        "2026-10-20": { "Sea Facing": 15 },
+        "2026-10-21": { "Sea Facing": 15 },
+        "2026-10-22": { "Sea Facing": 15 }
+      }
+    },
+    {
+      "id": "property_64",
+      "name": "Hotel Grandeur",
+      "ownerUsername": "mgr_64",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Suite", "totalRooms": 10 }
+      ],
+      "availability": {
+        "2026-10-16": { "Suite": 5 },
+        "2026-10-17": { "Suite": 10 },
+        "2026-10-18": { "Suite": 10 },
+        "2026-10-19": { "Suite": 10 },
+        "2026-10-20": { "Suite": 10 },
+        "2026-10-21": { "Suite": 10 },
+        "2026-10-22": { "Suite": 10 }
+      }
+    },
+    {
+      "id": "property_65",
+      "name": "Hotel Sapphire",
+      "ownerUsername": "mgr_65",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 15 },
+        "2026-10-17": { "Standard": 25 },
+        "2026-10-18": { "Standard": 25 },
+        "2026-10-19": { "Standard": 25 },
+        "2026-10-20": { "Standard": 25 },
+        "2026-10-21": { "Standard": 25 },
+        "2026-10-22": { "Standard": 25 }
+      }
+    },
+    {
+      "id": "property_66",
+      "name": "Hotel Ruby",
+      "ownerUsername": "mgr_66",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 10 },
+        "2026-10-17": { "Deluxe": 20 },
+        "2026-10-18": { "Deluxe": 20 },
+        "2026-10-19": { "Deluxe": 20 },
+        "2026-10-20": { "Deluxe": 20 },
+        "2026-10-21": { "Deluxe": 20 },
+        "2026-10-22": { "Deluxe": 20 }
+      }
+    },
+    {
+      "id": "property_67",
+      "name": "Hotel Emerald",
+      "ownerUsername": "mgr_67",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 10 },
+        "2026-10-17": { "AC Room": 18 },
+        "2026-10-18": { "AC Room": 18 },
+        "2026-10-19": { "AC Room": 18 },
+        "2026-10-20": { "AC Room": 18 },
+        "2026-10-21": { "AC Room": 18 },
+        "2026-10-22": { "AC Room": 18 }
+      }
+    },
+    {
+      "id": "property_68",
+      "name": "Hotel Pearl",
+      "ownerUsername": "mgr_68",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 12 },
+        "2026-10-17": { "Standard": 22 },
+        "2026-10-18": { "Standard": 22 },
+        "2026-10-19": { "Standard": 22 },
+        "2026-10-20": { "Standard": 22 },
+        "2026-10-21": { "Standard": 22 },
+        "2026-10-22": { "Standard": 22 }
+      }
+    },
+    {
+      "id": "property_69",
+      "name": "Hotel Coral",
+      "ownerUsername": "mgr_69",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 8 },
+        "2026-10-17": { "Deluxe": 15 },
+        "2026-10-18": { "Deluxe": 15 },
+        "2026-10-19": { "Deluxe": 15 },
+        "2026-10-20": { "Deluxe": 15 },
+        "2026-10-21": { "Deluxe": 15 },
+        "2026-10-22": { "Deluxe": 15 }
+      }
+    },
+    {
+      "id": "property_70",
+      "name": "Hotel Amber",
+      "ownerUsername": "mgr_70",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 12 },
+        "2026-10-17": { "AC Room": 20 },
+        "2026-10-18": { "AC Room": 20 },
+        "2026-10-19": { "AC Room": 20 },
+        "2026-10-20": { "AC Room": 20 },
+        "2026-10-21": { "AC Room": 20 },
+        "2026-10-22": { "AC Room": 20 }
+      }
+    },
+    {
+      "id": "property_71",
+      "name": "Hotel Topaz",
+      "ownerUsername": "mgr_71",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 15 },
+        "2026-10-17": { "Standard": 25 },
+        "2026-10-18": { "Standard": 25 },
+        "2026-10-19": { "Standard": 25 },
+        "2026-10-20": { "Standard": 25 },
+        "2026-10-21": { "Standard": 25 },
+        "2026-10-22": { "Standard": 25 }
+      }
+    },
+    {
+      "id": "property_72",
+      "name": "Hotel Garnet",
+      "ownerUsername": "mgr_72",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 10 },
+        "2026-10-17": { "Deluxe": 18 },
+        "2026-10-18": { "Deluxe": 18 },
+        "2026-10-19": { "Deluxe": 18 },
+        "2026-10-20": { "Deluxe": 18 },
+        "2026-10-21": { "Deluxe": 18 },
+        "2026-10-22": { "Deluxe": 18 }
+      }
+    },
+    {
+      "id": "property_73",
+      "name": "Hotel Opal",
+      "ownerUsername": "mgr_73",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 12 },
+        "2026-10-17": { "AC Room": 22 },
+        "2026-10-18": { "AC Room": 22 },
+        "2026-10-19": { "AC Room": 22 },
+        "2026-10-20": { "AC Room": 22 },
+        "2026-10-21": { "AC Room": 22 },
+        "2026-10-22": { "AC Room": 22 }
+      }
+    },
+    {
+      "id": "property_74",
+      "name": "Hotel Jade",
+      "ownerUsername": "mgr_74",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 10 },
+        "2026-10-17": { "Standard": 20 },
+        "2026-10-18": { "Standard": 20 },
+        "2026-10-19": { "Standard": 20 },
+        "2026-10-20": { "Standard": 20 },
+        "2026-10-21": { "Standard": 20 },
+        "2026-10-22": { "Standard": 20 }
+      }
+    },
+    {
+      "id": "property_75",
+      "name": "Hotel Quartz",
+      "ownerUsername": "mgr_75",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 30 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 18 },
+        "2026-10-17": { "Deluxe": 30 },
+        "2026-10-18": { "Deluxe": 30 },
+        "2026-10-19": { "Deluxe": 30 },
+        "2026-10-20": { "Deluxe": 30 },
+        "2026-10-21": { "Deluxe": 30 },
+        "2026-10-22": { "Deluxe": 30 }
+      }
+    },
+    {
+      "id": "property_76",
+      "name": "Hotel Zircon",
+      "ownerUsername": "mgr_76",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 8 },
+        "2026-10-17": { "AC Room": 15 },
+        "2026-10-18": { "AC Room": 15 },
+        "2026-10-19": { "AC Room": 15 },
+        "2026-10-20": { "AC Room": 15 },
+        "2026-10-21": { "AC Room": 15 },
+        "2026-10-22": { "AC Room": 15 }
+      }
+    },
+    {
+      "id": "property_77",
+      "name": "Hotel Onyx",
+      "ownerUsername": "mgr_77",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 10 },
+        "2026-10-17": { "Standard": 18 },
+        "2026-10-18": { "Standard": 18 },
+        "2026-10-19": { "Standard": 18 },
+        "2026-10-20": { "Standard": 18 },
+        "2026-10-21": { "Standard": 18 },
+        "2026-10-22": { "Standard": 18 }
+      }
+    },
+    {
+      "id": "property_78",
+      "name": "Hotel Peridot",
+      "ownerUsername": "mgr_78",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 15 },
+        "2026-10-17": { "Deluxe": 25 },
+        "2026-10-18": { "Deluxe": 25 },
+        "2026-10-19": { "Deluxe": 25 },
+        "2026-10-20": { "Deluxe": 25 },
+        "2026-10-21": { "Deluxe": 25 },
+        "2026-10-22": { "Deluxe": 25 }
+      }
+    },
+    {
+      "id": "property_79",
+      "name": "Hotel Topaz Inn",
+      "ownerUsername": "mgr_79",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 12 },
+        "2026-10-17": { "AC Room": 20 },
+        "2026-10-18": { "AC Room": 20 },
+        "2026-10-19": { "AC Room": 20 },
+        "2026-10-20": { "AC Room": 20 },
+        "2026-10-21": { "AC Room": 20 },
+        "2026-10-22": { "AC Room": 20 }
+      }
+    },
+    {
+      "id": "property_80",
+      "name": "Hotel Mystic",
+      "ownerUsername": "mgr_80",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 12 },
+        "2026-10-17": { "Standard": 22 },
+        "2026-10-18": { "Standard": 22 },
+        "2026-10-19": { "Standard": 22 },
+        "2026-10-20": { "Standard": 22 },
+        "2026-10-21": { "Standard": 22 },
+        "2026-10-22": { "Standard": 22 }
+      }
+    },
+    {
+      "id": "property_81",
+      "name": "Hotel Dreamland",
+      "ownerUsername": "mgr_81",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 10 },
+        "2026-10-17": { "Deluxe": 18 },
+        "2026-10-18": { "Deluxe": 18 },
+        "2026-10-19": { "Deluxe": 18 },
+        "2026-10-20": { "Deluxe": 18 },
+        "2026-10-21": { "Deluxe": 18 },
+        "2026-10-22": { "Deluxe": 18 }
+      }
+    },
+    {
+      "id": "property_82",
+      "name": "Hotel Paradise Inn",
+      "ownerUsername": "mgr_82",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 15 },
+        "2026-10-17": { "AC Room": 25 },
+        "2026-10-18": { "AC Room": 25 },
+        "2026-10-19": { "AC Room": 25 },
+        "2026-10-20": { "AC Room": 25 },
+        "2026-10-21": { "AC Room": 25 },
+        "2026-10-22": { "AC Room": 25 }
+      }
+    },
+    {
+      "id": "property_83",
+      "name": "Hotel Crown",
+      "ownerUsername": "mgr_83",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Suite", "totalRooms": 10 }
+      ],
+      "availability": {
+        "2026-10-16": { "Suite": 6 },
+        "2026-10-17": { "Suite": 10 },
+        "2026-10-18": { "Suite": 10 },
+        "2026-10-19": { "Suite": 10 },
+        "2026-10-20": { "Suite": 10 },
+        "2026-10-21": { "Suite": 10 },
+        "2026-10-22": { "Suite": 10 }
+      }
+    },
+    {
+      "id": "property_84",
+      "name": "Hotel Royal View",
+      "ownerUsername": "mgr_84",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 30 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 18 },
+        "2026-10-17": { "Standard": 30 },
+        "2026-10-18": { "Standard": 30 },
+        "2026-10-19": { "Standard": 30 },
+        "2026-10-20": { "Standard": 30 },
+        "2026-10-21": { "Standard": 30 },
+        "2026-10-22": { "Standard": 30 }
+      }
+    },
+    {
+      "id": "property_85",
+      "name": "Hotel Star Residency",
+      "ownerUsername": "mgr_85",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 12 },
+        "2026-10-17": { "Deluxe": 20 },
+        "2026-10-18": { "Deluxe": 20 },
+        "2026-10-19": { "Deluxe": 20 },
+        "2026-10-20": { "Deluxe": 20 },
+        "2026-10-21": { "Deluxe": 20 },
+        "2026-10-22": { "Deluxe": 20 }
+      }
+    },
+    {
+      "id": "property_86",
+      "name": "Hotel Grand Palace",
+      "ownerUsername": "mgr_86",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 15 },
+        "2026-10-17": { "AC Room": 25 },
+        "2026-10-18": { "AC Room": 25 },
+        "2026-10-19": { "AC Room": 25 },
+        "2026-10-20": { "AC Room": 25 },
+        "2026-10-21": { "AC Room": 25 },
+        "2026-10-22": { "AC Room": 25 }
+      }
+    },
+    {
+      "id": "property_87",
+      "name": "Hotel Apex Inn",
+      "ownerUsername": "mgr_87",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 8 },
+        "2026-10-17": { "Standard": 15 },
+        "2026-10-18": { "Standard": 15 },
+        "2026-10-19": { "Standard": 15 },
+        "2026-10-20": { "Standard": 15 },
+        "2026-10-21": { "Standard": 15 },
+        "2026-10-22": { "Standard": 15 }
+      }
+    },
+    {
+      "id": "property_88",
+      "name": "Hotel Elegant",
+      "ownerUsername": "mgr_88",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 10 },
+        "2026-10-17": { "Deluxe": 18 },
+        "2026-10-18": { "Deluxe": 18 },
+        "2026-10-19": { "Deluxe": 18 },
+        "2026-10-20": { "Deluxe": 18 },
+        "2026-10-21": { "Deluxe": 18 },
+        "2026-10-22": { "Deluxe": 18 }
+      }
+    },
+    {
+      "id": "property_89",
+      "name": "Hotel Classic",
+      "ownerUsername": "mgr_89",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 12 },
+        "2026-10-17": { "AC Room": 22 },
+        "2026-10-18": { "AC Room": 22 },
+        "2026-10-19": { "AC Room": 22 },
+        "2026-10-20": { "AC Room": 22 },
+        "2026-10-21": { "AC Room": 22 },
+        "2026-10-22": { "AC Room": 22 }
+      }
+    },
+    {
+      "id": "property_90",
+      "name": "Hotel Prime",
+      "ownerUsername": "mgr_90",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 12 },
+        "2026-10-17": { "Standard": 20 },
+        "2026-10-18": { "Standard": 20 },
+        "2026-10-19": { "Standard": 20 },
+        "2026-10-20": { "Standard": 20 },
+        "2026-10-21": { "Standard": 20 },
+        "2026-10-22": { "Standard": 20 }
+      }
+    },
+    {
+      "id": "property_91",
+      "name": "Hotel Elite",
+      "ownerUsername": "mgr_91",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 15 },
+        "2026-10-17": { "Deluxe": 25 },
+        "2026-10-18": { "Deluxe": 25 },
+        "2026-10-19": { "Deluxe": 25 },
+        "2026-10-20": { "Deluxe": 25 },
+        "2026-10-21": { "Deluxe": 25 },
+        "2026-10-22": { "Deluxe": 25 }
+      }
+    },
+    {
+      "id": "property_92",
+      "name": "Hotel Select",
+      "ownerUsername": "mgr_92",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 10 },
+        "2026-10-17": { "AC Room": 18 },
+        "2026-10-18": { "AC Room": 18 },
+        "2026-10-19": { "AC Room": 18 },
+        "2026-10-20": { "AC Room": 18 },
+        "2026-10-21": { "AC Room": 18 },
+        "2026-10-22": { "AC Room": 18 }
+      }
+    },
+    {
+      "id": "property_93",
+      "name": "Hotel Zenith",
+      "ownerUsername": "mgr_93",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 15 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 8 },
+        "2026-10-17": { "Standard": 15 },
+        "2026-10-18": { "Standard": 15 },
+        "2026-10-19": { "Standard": 15 },
+        "2026-10-20": { "Standard": 15 },
+        "2026-10-21": { "Standard": 15 },
+        "2026-10-22": { "Standard": 15 }
+      }
+    },
+    {
+      "id": "property_94",
+      "name": "Hotel Pinnacle",
+      "ownerUsername": "mgr_94",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 12 },
+        "2026-10-17": { "Deluxe": 22 },
+        "2026-10-18": { "Deluxe": 22 },
+        "2026-10-19": { "Deluxe": 22 },
+        "2026-10-20": { "Deluxe": 22 },
+        "2026-10-21": { "Deluxe": 22 },
+        "2026-10-22": { "Deluxe": 22 }
+      }
+    },
+    {
+      "id": "property_95",
+      "name": "Hotel Summit",
+      "ownerUsername": "mgr_95",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 12 },
+        "2026-10-17": { "AC Room": 20 },
+        "2026-10-18": { "AC Room": 20 },
+        "2026-10-19": { "AC Room": 20 },
+        "2026-10-20": { "AC Room": 20 },
+        "2026-10-21": { "AC Room": 20 },
+        "2026-10-22": { "AC Room": 20 }
+      }
+    },
+    {
+      "id": "property_96",
+      "name": "Hotel Apex Grand",
+      "ownerUsername": "mgr_96",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 25 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 15 },
+        "2026-10-17": { "Standard": 25 },
+        "2026-10-18": { "Standard": 25 },
+        "2026-10-19": { "Standard": 25 },
+        "2026-10-20": { "Standard": 25 },
+        "2026-10-21": { "Standard": 25 },
+        "2026-10-22": { "Standard": 25 }
+      }
+    },
+    {
+      "id": "property_97",
+      "name": "Hotel Royal Inn",
+      "ownerUsername": "mgr_97",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe", "totalRooms": 18 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe": 10 },
+        "2026-10-17": { "Deluxe": 18 },
+        "2026-10-18": { "Deluxe": 18 },
+        "2026-10-19": { "Deluxe": 18 },
+        "2026-10-20": { "Deluxe": 18 },
+        "2026-10-21": { "Deluxe": 18 },
+        "2026-10-22": { "Deluxe": 18 }
+      }
+    },
+    {
+      "id": "property_98",
+      "name": "Hotel Metro",
+      "ownerUsername": "mgr_98",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "AC Room", "totalRooms": 22 }
+      ],
+      "availability": {
+        "2026-10-16": { "AC Room": 12 },
+        "2026-10-17": { "AC Room": 22 },
+        "2026-10-18": { "AC Room": 22 },
+        "2026-10-19": { "AC Room": 22 },
+        "2026-10-20": { "AC Room": 22 },
+        "2026-10-21": { "AC Room": 22 },
+        "2026-10-22": { "AC Room": 22 }
+      }
+    },
+    {
+      "id": "property_99",
+      "name": "Hotel Surya Palace",
+      "ownerUsername": "mgr_99",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Standard", "totalRooms": 20 }
+      ],
+      "availability": {
+        "2026-10-16": { "Standard": 12 },
+        "2026-10-17": { "Standard": 20 },
+        "2026-10-18": { "Standard": 20 },
+        "2026-10-19": { "Standard": 20 },
+        "2026-10-20": { "Standard": 20 },
+        "2026-10-21": { "Standard": 20 },
+        "2026-10-22": { "Standard": 20 }
+      }
+    },
+    {
+      "id": "property_100",
+      "name": "Kutch Gateway Hotel",
+      "ownerUsername": "mgr_100",
+      "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
+      "location": "Bhuj",
+      "categories": [
+        { "name": "Deluxe AC", "totalRooms": 30 },
+        { "name": "Suite", "totalRooms": 5 }
+      ],
+      "availability": {
+        "2026-10-16": { "Deluxe AC": 18, "Suite": 3 },
+        "2026-10-17": { "Deluxe AC": 30, "Suite": 5 },
+        "2026-10-18": { "Deluxe AC": 30, "Suite": 5 },
+        "2026-10-19": { "Deluxe AC": 30, "Suite": 5 },
+        "2026-10-20": { "Deluxe AC": 30, "Suite": 5 },
+        "2026-10-21": { "Deluxe AC": 30, "Suite": 5 },
+        "2026-10-22": { "Deluxe AC": 30, "Suite": 5 }
       }
     }
   ]

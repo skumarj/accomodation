@@ -22,12 +22,12 @@
       ],
       "availability": {
         "2026-10-16": {
-          "Deluxe AC": 0,
+          "Deluxe AC": 4,
           "Standard Non-AC": 6,
           "Suite": 0
         },
         "2026-10-17": {
-          "Deluxe AC": 6,
+          "Deluxe AC": 0,
           "Standard Non-AC": 12,
           "Suite": 2
         },

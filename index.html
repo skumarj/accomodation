@@ -30,17 +30,17 @@
                     <div id="loginAlert"></div>
                     <form id="loginForm">
                         <div class="mb-3">
-                            <label class="form-label">GitHub Token (Any text for local testing)</label>
-                            <input type="text" id="ghToken" class="form-control" value="local-dev-token" placeholder="ghp_xxxx or type anything" required>
-                            <div class="form-text">For local mode, any dummy token works if testing locally.</div>
+                            <label class="form-label">GitHub Personal Access Token (PAT)</label>
+                            <input type="password" id="ghToken" class="form-control" placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" required>
+                            <div class="form-text">Required to fetch & commit updates to GitHub.</div>
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Username</label>
-                            <input type="text" id="username" class="form-control" value="royal_mgr" placeholder="e.g. royal_mgr" required>
+                            <input type="text" id="username" class="form-control" placeholder="e.g. royal_mgr" required>
                         </div>
                         <div class="mb-3">
                             <label class="form-label">Password</label>
-                            <input type="password" id="password" class="form-control" value="royal123" placeholder="Property manager password" required>
+                            <input type="password" id="password" class="form-control" placeholder="Property manager password" required>
                         </div>
                         <button type="submit" class="btn btn-primary w-100"><i class="bi bi-box-arrow-in-right"></i> Login & Load Property</button>
                     </form>
@@ -65,7 +65,7 @@
             <div class="card p-4 mb-4">
                 <div class="d-flex justify-content-between align-items-center mb-3">
                     <h4 class="mb-0">7-Day Availability Matrix</h4>
-                    <button class="btn btn-success" onclick="saveAvailability()"><i class="bi bi-cloud-upload"></i> Save & Sync</button>
+                    <button class="btn btn-success" onclick="saveAvailability()"><i class="bi bi-cloud-upload"></i> Save & Push to GitHub</button>
                 </div>
                 <div class="table-responsive">
                     <table class="table table-bordered table-striped align-middle text-center" id="availabilityTable">
@@ -84,7 +84,6 @@
     </div>
 
     <script>
-        // CONFIGURATION: Set your GitHub Repo details here (or leave defaults for local file fallback)
         const REPO_OWNER = "skumarj";
         const REPO_NAME = "accomodation";
         const FILE_PATH = "data/properties.json";
@@ -93,9 +92,7 @@
         let currentProperty = null;
         let currentAuthToken = "";
         let fileSha = "";
-        let isLocalMode = false;
 
-        // Helper function to hash passwords securely using SHA-256
         async function hashPassword(password) {
             const msgBuffer = new TextEncoder().encode(password);
             const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
@@ -113,53 +110,39 @@
             alertBox.innerHTML = `<div class="alert alert-info">Authenticating credentials...</div>`;
 
             try {
-                // Try fetching from GitHub API first, fallback to local `data/properties.json` if token looks like a dummy/local token or fetch fails
-                isLocalMode = token.startsWith("local") || REPO_OWNER.includes("YOUR_GITHUB");
+                const res = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
+                    headers: { 'Authorization': `token ${token}` }
+                });
+
+                if (!res.ok) throw new Error("Failed to fetch properties file from GitHub. Check your Token permissions and Repo name.");
                 
-                if (!isLocalMode) {
-                    try {
-                        const res = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${FILE_PATH}`, {
-                            headers: { 'Authorization': `token ${token}` }
-                        });
-                        if (res.ok) {
-                            const fileData = await res.json();
-                            fileSha = fileData.sha;
-                            const decodedContent = new TextDecoder().decode(Uint8Array.from(atob(fileData.content), c => c.charCodeAt(0)));
-                            globalData = JSON.parse(decodedContent);
-                        } else {
-                            throw new Error("GitHub fetch failed, falling back to local file.");
-                        }
-                    } catch (apiErr) {
-                        isLocalMode = true;
-                    }
-                }
+                const fileData = await res.json();
+                fileSha = fileData.sha;
+                
+                const decodedContent = new TextDecoder().decode(Uint8Array.from(atob(fileData.content), c => c.charCodeAt(0)));
+                globalData = JSON.parse(decodedContent);
 
-                if (isLocalMode) {
-                    // Load local file directly via relative path
-                    const res = await fetch(FILE_PATH);
-                    if (!res.ok) throw new Error("Could not load local `data/properties.json`. Make sure your local server is running.");
-                    globalData = await res.json();
-                }
-
-                // Find property matching username
                 const matchedProp = globalData.properties.find(p => p.ownerUsername === username);
                 if (!matchedProp) {
-                    throw new Error("Invalid username or property not found.");
+                    throw new Error("Invalid username or property not assigned.");
                 }
 
-                // Verify password hash
+                // Debug helper: Prints hash of entered password to browser console (F12)
                 const hashedInputPassword = await hashPassword(password);
+                console.log("Username attempted:", username);
+                console.log("Hashed input password:", hashedInputPassword);
+                console.log("Stored password hash:", matchedProp.passwordHash);
+
                 if (hashedInputPassword !== matchedProp.passwordHash) {
-                    throw new Error("Incorrect password. Please try again.");
+                    throw new Error("Incorrect password. (Check browser console F12 to see generated hash vs stored hash).");
                 }
 
                 currentProperty = matchedProp;
                 currentAuthToken = token;
 
-                // Switch UI Views
                 document.getElementById('loginSection').style.display = 'none';
                 document.getElementById('dashboardSection').style.display = 'block';
-                document.getElementById('userNav').innerHTML = `<i class="bi bi-person-circle"></i> Logged in as: <b>${username}</b> (${currentProperty.name}) ${isLocalMode ? '<span class="badge bg-warning text-dark">Local Mode</span>' : ''}`;
+                document.getElementById('userNav').innerHTML = `<i class="bi bi-person-circle"></i> Logged in as: <b>${username}</b> (${currentProperty.name})`;
 
                 loadDashboard();
             } catch (err) {
@@ -171,7 +154,6 @@
             document.getElementById('propertyName').innerText = currentProperty.name;
             document.getElementById('propertyLocation').innerHTML = `<i class="bi bi-geo-alt-fill"></i> Location: ${currentProperty.location}`;
 
-            // Generate next 7 dates starting from today
             const dates = [];
             for (let i = 0; i < 7; i++) {
                 const d = new Date();
@@ -179,14 +161,12 @@
                 dates.push(d.toISOString().split('T')[0]);
             }
 
-            // Build Header
             const headerRow = document.getElementById('tableHeader');
             headerRow.innerHTML = `<th>Room Category (Max Capacity)</th>`;
             dates.forEach(date => {
                 headerRow.innerHTML += `<th>${date}</th>`;
             });
 
-            // Build Body
             const tableBody = document.getElementById('tableBody');
             tableBody.innerHTML = '';
 
@@ -214,9 +194,8 @@
 
         async function saveAvailability() {
             const statusAlert = document.getElementById('statusAlert');
-            statusAlert.innerHTML = `<div class="alert alert-info">Updating availability...</div>`;
+            statusAlert.innerHTML = `<div class="alert alert-info">Updating matrix and committing to GitHub...</div>`;
 
-            // Gather values from input fields
             const inputs = document.querySelectorAll('.availability-input');
             inputs.forEach(input => {
                 const date = input.getAttribute('data-date');
@@ -233,17 +212,6 @@
                 const propIndex = globalData.properties.findIndex(p => p.id === currentProperty.id);
                 globalData.properties[propIndex] = currentProperty;
 
-                if (isLocalMode) {
-                    // In local mode without a real GitHub API push, we simulate success and log JSON to console so you can copy/paste it back into your local JSON file if desired.
-                    console.log("Updated JSON Payload:", JSON.stringify(globalData, null, 2));
-                    statusAlert.innerHTML = `<div class="alert alert-success alert-dismissible fade show" role="alert">
-                        <i class="bi bi-check-circle-fill"></i> Availability updated successfully in local memory! (Check browser console for JSON output).
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                    </div>`;
-                    return;
-                }
-
-                // Push updated JSON back to GitHub API if online
                 const jsonString = JSON.stringify(globalData, null, 2);
                 const encodedContent = btoa(unescape(encodeURIComponent(jsonString)));
 
@@ -254,7 +222,7 @@
                         'Content-Type': 'application/json',
                     },
                     body: JSON.stringify({
-                        message: `Update room availability for ${currentProperty.name}`,
+                        message: `Update room availability matrix for ${currentProperty.name}`,
                         content: encodedContent,
                         sha: fileSha
                     })
@@ -269,7 +237,7 @@
                 fileSha = resData.content.sha;
 
                 statusAlert.innerHTML = `<div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <i class="bi bi-check-circle-fill"></i> Availability updated successfully and pushed to GitHub!
+                    <i class="bi bi-check-circle-fill"></i> Availability successfully updated and committed to GitHub!
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>`;
             } catch (err) {
@@ -283,8 +251,8 @@
             currentAuthToken = "";
             document.getElementById('dashboardSection').style.display = 'none';
             document.getElementById('loginSection').style.display = 'block';
-            document.getElementById('ghToken').value = 'local-dev-token';
-            document.getElementById('password').value = 'royal123';
+            document.getElementById('ghToken').value = '';
+            document.getElementById('password').value = '';
         }
     </script>
 </body>

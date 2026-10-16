@@ -7,18 +7,55 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj-Kachchh",
       "categories": [
-        { "name": "Deluxe AC", "totalRooms": 15 },
-        { "name": "Standard Non-AC", "totalRooms": 25 },
-        { "name": "Suite", "totalRooms": 5 }
+        {
+          "name": "Deluxe AC",
+          "totalRooms": 15
+        },
+        {
+          "name": "Standard Non-AC",
+          "totalRooms": 25
+        },
+        {
+          "name": "Suite",
+          "totalRooms": 5
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe AC": 15, "Standard Non-AC": 8, "Suite": 2 },
-        "2026-10-17": { "Deluxe AC": 3, "Standard Non-AC": 12, "Suite": 2 },
-        "2026-10-18": { "Deluxe AC": 15, "Standard Non-AC": 25, "Suite": 5 },
-        "2026-10-19": { "Deluxe AC": 15, "Standard Non-AC": 25, "Suite": 5 },
-        "2026-10-20": { "Deluxe AC": 15, "Standard Non-AC": 25, "Suite": 5 },
-        "2026-10-21": { "Deluxe AC": 15, "Standard Non-AC": 25, "Suite": 5 },
-        "2026-10-22": { "Deluxe AC": 15, "Standard Non-AC": 25, "Suite": 5 }
+        "2026-10-16": {
+          "Deluxe AC": 15,
+          "Standard Non-AC": 8,
+          "Suite": 2
+        },
+        "2026-10-17": {
+          "Deluxe AC": 3,
+          "Standard Non-AC": 12,
+          "Suite": 2
+        },
+        "2026-10-18": {
+          "Deluxe AC": 15,
+          "Standard Non-AC": 25,
+          "Suite": 5
+        },
+        "2026-10-19": {
+          "Deluxe AC": 15,
+          "Standard Non-AC": 25,
+          "Suite": 5
+        },
+        "2026-10-20": {
+          "Deluxe AC": 15,
+          "Standard Non-AC": 25,
+          "Suite": 5
+        },
+        "2026-10-21": {
+          "Deluxe AC": 15,
+          "Standard Non-AC": 25,
+          "Suite": 5
+        },
+        "2026-10-22": {
+          "Deluxe AC": 15,
+          "Standard Non-AC": 25,
+          "Suite": 5
+        }
       }
     },
     {
@@ -28,17 +65,44 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Dormitory Bed", "totalRooms": 50 },
-        { "name": "Family Hall", "totalRooms": 10 }
+        {
+          "name": "Dormitory Bed",
+          "totalRooms": 50
+        },
+        {
+          "name": "Family Hall",
+          "totalRooms": 10
+        }
       ],
       "availability": {
-        "2026-10-16": { "Dormitory Bed": 15, "Family Hall": 3 },
-        "2026-10-17": { "Dormitory Bed": 50, "Family Hall": 10 },
-        "2026-10-18": { "Dormitory Bed": 50, "Family Hall": 10 },
-        "2026-10-19": { "Dormitory Bed": 50, "Family Hall": 10 },
-        "2026-10-20": { "Dormitory Bed": 50, "Family Hall": 10 },
-        "2026-10-21": { "Dormitory Bed": 50, "Family Hall": 10 },
-        "2026-10-22": { "Dormitory Bed": 50, "Family Hall": 10 }
+        "2026-10-16": {
+          "Dormitory Bed": 15,
+          "Family Hall": 3
+        },
+        "2026-10-17": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
+        },
+        "2026-10-18": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
+        },
+        "2026-10-19": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
+        },
+        "2026-10-20": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
+        },
+        "2026-10-21": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
+        },
+        "2026-10-22": {
+          "Dormitory Bed": 50,
+          "Family Hall": 10
+        }
       }
     },
     {
@@ -48,17 +112,44 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Station Road, Bhuj",
       "categories": [
-        { "name": "Executive AC", "totalRooms": 20 },
-        { "name": "Standard AC", "totalRooms": 30 }
+        {
+          "name": "Executive AC",
+          "totalRooms": 20
+        },
+        {
+          "name": "Standard AC",
+          "totalRooms": 30
+        }
       ],
       "availability": {
-        "2026-10-16": { "Executive AC": 10, "Standard AC": 15 },
-        "2026-10-17": { "Executive AC": 20, "Standard AC": 30 },
-        "2026-10-18": { "Executive AC": 20, "Standard AC": 30 },
-        "2026-10-19": { "Executive AC": 20, "Standard AC": 30 },
-        "2026-10-20": { "Executive AC": 20, "Standard AC": 30 },
-        "2026-10-21": { "Executive AC": 20, "Standard AC": 30 },
-        "2026-10-22": { "Executive AC": 20, "Standard AC": 30 }
+        "2026-10-16": {
+          "Executive AC": 10,
+          "Standard AC": 15
+        },
+        "2026-10-17": {
+          "Executive AC": 20,
+          "Standard AC": 30
+        },
+        "2026-10-18": {
+          "Executive AC": 20,
+          "Standard AC": 30
+        },
+        "2026-10-19": {
+          "Executive AC": 20,
+          "Standard AC": 30
+        },
+        "2026-10-20": {
+          "Executive AC": 20,
+          "Standard AC": 30
+        },
+        "2026-10-21": {
+          "Executive AC": 20,
+          "Standard AC": 30
+        },
+        "2026-10-22": {
+          "Executive AC": 20,
+          "Standard AC": 30
+        }
       }
     },
     {
@@ -68,17 +159,44 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Dhordo",
       "categories": [
-        { "name": "Luxury Swiss Tent", "totalRooms": 40 },
-        { "name": "Royal Tent", "totalRooms": 10 }
+        {
+          "name": "Luxury Swiss Tent",
+          "totalRooms": 40
+        },
+        {
+          "name": "Royal Tent",
+          "totalRooms": 10
+        }
       ],
       "availability": {
-        "2026-10-16": { "Luxury Swiss Tent": 25, "Royal Tent": 5 },
-        "2026-10-17": { "Luxury Swiss Tent": 40, "Royal Tent": 10 },
-        "2026-10-18": { "Luxury Swiss Tent": 40, "Royal Tent": 10 },
-        "2026-10-19": { "Luxury Swiss Tent": 40, "Royal Tent": 10 },
-        "2026-10-20": { "Luxury Swiss Tent": 40, "Royal Tent": 10 },
-        "2026-10-21": { "Luxury Swiss Tent": 40, "Royal Tent": 10 },
-        "2026-10-22": { "Luxury Swiss Tent": 40, "Royal Tent": 10 }
+        "2026-10-16": {
+          "Luxury Swiss Tent": 25,
+          "Royal Tent": 5
+        },
+        "2026-10-17": {
+          "Luxury Swiss Tent": 40,
+          "Royal Tent": 10
+        },
+        "2026-10-18": {
+          "Luxury Swiss Tent": 40,
+          "Royal Tent": 10
+        },
+        "2026-10-19": {
+          "Luxury Swiss Tent": 40,
+          "Royal Tent": 10
+        },
+        "2026-10-20": {
+          "Luxury Swiss Tent": 40,
+          "Royal Tent": 10
+        },
+        "2026-10-21": {
+          "Luxury Swiss Tent": 40,
+          "Royal Tent": 10
+        },
+        "2026-10-22": {
+          "Luxury Swiss Tent": 40,
+          "Royal Tent": 10
+        }
       }
     },
     {
@@ -88,17 +206,44 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhujodi",
       "categories": [
-        { "name": "Traditional Bhunga", "totalRooms": 8 },
-        { "name": "Courtyard Room", "totalRooms": 12 }
+        {
+          "name": "Traditional Bhunga",
+          "totalRooms": 8
+        },
+        {
+          "name": "Courtyard Room",
+          "totalRooms": 12
+        }
       ],
       "availability": {
-        "2026-10-16": { "Traditional Bhunga": 4, "Courtyard Room": 6 },
-        "2026-10-17": { "Traditional Bhunga": 8, "Courtyard Room": 12 },
-        "2026-10-18": { "Traditional Bhunga": 8, "Courtyard Room": 12 },
-        "2026-10-19": { "Traditional Bhunga": 8, "Courtyard Room": 12 },
-        "2026-10-20": { "Traditional Bhunga": 8, "Courtyard Room": 12 },
-        "2026-10-21": { "Traditional Bhunga": 8, "Courtyard Room": 12 },
-        "2026-10-22": { "Traditional Bhunga": 8, "Courtyard Room": 12 }
+        "2026-10-16": {
+          "Traditional Bhunga": 4,
+          "Courtyard Room": 6
+        },
+        "2026-10-17": {
+          "Traditional Bhunga": 8,
+          "Courtyard Room": 12
+        },
+        "2026-10-18": {
+          "Traditional Bhunga": 8,
+          "Courtyard Room": 12
+        },
+        "2026-10-19": {
+          "Traditional Bhunga": 8,
+          "Courtyard Room": 12
+        },
+        "2026-10-20": {
+          "Traditional Bhunga": 8,
+          "Courtyard Room": 12
+        },
+        "2026-10-21": {
+          "Traditional Bhunga": 8,
+          "Courtyard Room": 12
+        },
+        "2026-10-22": {
+          "Traditional Bhunga": 8,
+          "Courtyard Room": 12
+        }
       }
     },
     {
@@ -108,17 +253,44 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Super Deluxe", "totalRooms": 25 },
-        { "name": "Family Suite", "totalRooms": 5 }
+        {
+          "name": "Super Deluxe",
+          "totalRooms": 25
+        },
+        {
+          "name": "Family Suite",
+          "totalRooms": 5
+        }
       ],
       "availability": {
-        "2026-10-16": { "Super Deluxe": 20, "Family Suite": 4 },
-        "2026-10-17": { "Super Deluxe": 25, "Family Suite": 5 },
-        "2026-10-18": { "Super Deluxe": 25, "Family Suite": 5 },
-        "2026-10-19": { "Super Deluxe": 25, "Family Suite": 5 },
-        "2026-10-20": { "Super Deluxe": 25, "Family Suite": 5 },
-        "2026-10-21": { "Super Deluxe": 25, "Family Suite": 5 },
-        "2026-10-22": { "Super Deluxe": 25, "Family Suite": 5 }
+        "2026-10-16": {
+          "Super Deluxe": 20,
+          "Family Suite": 4
+        },
+        "2026-10-17": {
+          "Super Deluxe": 25,
+          "Family Suite": 5
+        },
+        "2026-10-18": {
+          "Super Deluxe": 25,
+          "Family Suite": 5
+        },
+        "2026-10-19": {
+          "Super Deluxe": 25,
+          "Family Suite": 5
+        },
+        "2026-10-20": {
+          "Super Deluxe": 25,
+          "Family Suite": 5
+        },
+        "2026-10-21": {
+          "Super Deluxe": 25,
+          "Family Suite": 5
+        },
+        "2026-10-22": {
+          "Super Deluxe": 25,
+          "Family Suite": 5
+        }
       }
     },
     {
@@ -128,17 +300,44 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Mandvi Beach",
       "categories": [
-        { "name": "Beach View AC", "totalRooms": 15 },
-        { "name": "Standard Cottage", "totalRooms": 20 }
+        {
+          "name": "Beach View AC",
+          "totalRooms": 15
+        },
+        {
+          "name": "Standard Cottage",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Beach View AC": 5, "Standard Cottage": 10 },
-        "2026-10-17": { "Beach View AC": 15, "Standard Cottage": 20 },
-        "2026-10-18": { "Beach View AC": 15, "Standard Cottage": 20 },
-        "2026-10-19": { "Beach View AC": 15, "Standard Cottage": 20 },
-        "2026-10-20": { "Beach View AC": 15, "Standard Cottage": 20 },
-        "2026-10-21": { "Beach View AC": 15, "Standard Cottage": 20 },
-        "2026-10-22": { "Beach View AC": 15, "Standard Cottage": 20 }
+        "2026-10-16": {
+          "Beach View AC": 5,
+          "Standard Cottage": 10
+        },
+        "2026-10-17": {
+          "Beach View AC": 15,
+          "Standard Cottage": 20
+        },
+        "2026-10-18": {
+          "Beach View AC": 15,
+          "Standard Cottage": 20
+        },
+        "2026-10-19": {
+          "Beach View AC": 15,
+          "Standard Cottage": 20
+        },
+        "2026-10-20": {
+          "Beach View AC": 15,
+          "Standard Cottage": 20
+        },
+        "2026-10-21": {
+          "Beach View AC": 15,
+          "Standard Cottage": 20
+        },
+        "2026-10-22": {
+          "Beach View AC": 15,
+          "Standard Cottage": 20
+        }
       }
     },
     {
@@ -148,17 +347,44 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe Room", "totalRooms": 30 },
-        { "name": "Economy Room", "totalRooms": 20 }
+        {
+          "name": "Deluxe Room",
+          "totalRooms": 30
+        },
+        {
+          "name": "Economy Room",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe Room": 20, "Economy Room": 15 },
-        "2026-10-17": { "Deluxe Room": 30, "Economy Room": 20 },
-        "2026-10-18": { "Deluxe Room": 30, "Economy Room": 20 },
-        "2026-10-19": { "Deluxe Room": 30, "Economy Room": 20 },
-        "2026-10-20": { "Deluxe Room": 30, "Economy Room": 20 },
-        "2026-10-21": { "Deluxe Room": 30, "Economy Room": 20 },
-        "2026-10-22": { "Deluxe Room": 30, "Economy Room": 20 }
+        "2026-10-16": {
+          "Deluxe Room": 20,
+          "Economy Room": 15
+        },
+        "2026-10-17": {
+          "Deluxe Room": 30,
+          "Economy Room": 20
+        },
+        "2026-10-18": {
+          "Deluxe Room": 30,
+          "Economy Room": 20
+        },
+        "2026-10-19": {
+          "Deluxe Room": 30,
+          "Economy Room": 20
+        },
+        "2026-10-20": {
+          "Deluxe Room": 30,
+          "Economy Room": 20
+        },
+        "2026-10-21": {
+          "Deluxe Room": 30,
+          "Economy Room": 20
+        },
+        "2026-10-22": {
+          "Deluxe Room": 30,
+          "Economy Room": 20
+        }
       }
     },
     {
@@ -168,17 +394,44 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Airport Road, Bhuj",
       "categories": [
-        { "name": "Superior Room", "totalRooms": 45 },
-        { "name": "Club Suite", "totalRooms": 10 }
+        {
+          "name": "Superior Room",
+          "totalRooms": 45
+        },
+        {
+          "name": "Club Suite",
+          "totalRooms": 10
+        }
       ],
       "availability": {
-        "2026-10-16": { "Superior Room": 30, "Club Suite": 8 },
-        "2026-10-17": { "Superior Room": 45, "Club Suite": 10 },
-        "2026-10-18": { "Superior Room": 45, "Club Suite": 10 },
-        "2026-10-19": { "Superior Room": 45, "Club Suite": 10 },
-        "2026-10-20": { "Superior Room": 45, "Club Suite": 10 },
-        "2026-10-21": { "Superior Room": 45, "Club Suite": 10 },
-        "2026-10-22": { "Superior Room": 45, "Club Suite": 10 }
+        "2026-10-16": {
+          "Superior Room": 30,
+          "Club Suite": 8
+        },
+        "2026-10-17": {
+          "Superior Room": 45,
+          "Club Suite": 10
+        },
+        "2026-10-18": {
+          "Superior Room": 45,
+          "Club Suite": 10
+        },
+        "2026-10-19": {
+          "Superior Room": 45,
+          "Club Suite": 10
+        },
+        "2026-10-20": {
+          "Superior Room": 45,
+          "Club Suite": 10
+        },
+        "2026-10-21": {
+          "Superior Room": 45,
+          "Club Suite": 10
+        },
+        "2026-10-22": {
+          "Superior Room": 45,
+          "Club Suite": 10
+        }
       }
     },
     {
@@ -188,16 +441,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard Room", "totalRooms": 25 }
+        {
+          "name": "Standard Room",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard Room": 18 },
-        "2026-10-17": { "Standard Room": 25 },
-        "2026-10-18": { "Standard Room": 25 },
-        "2026-10-19": { "Standard Room": 25 },
-        "2026-10-20": { "Standard Room": 25 },
-        "2026-10-21": { "Standard Room": 25 },
-        "2026-10-22": { "Standard Room": 25 }
+        "2026-10-16": {
+          "Standard Room": 18
+        },
+        "2026-10-17": {
+          "Standard Room": 25
+        },
+        "2026-10-18": {
+          "Standard Room": 25
+        },
+        "2026-10-19": {
+          "Standard Room": 25
+        },
+        "2026-10-20": {
+          "Standard Room": 25
+        },
+        "2026-10-21": {
+          "Standard Room": 25
+        },
+        "2026-10-22": {
+          "Standard Room": 25
+        }
       }
     },
     {
@@ -207,16 +477,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 30 }
+        {
+          "name": "AC Room",
+          "totalRooms": 30
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 20 },
-        "2026-10-17": { "AC Room": 30 },
-        "2026-10-18": { "AC Room": 30 },
-        "2026-10-19": { "AC Room": 30 },
-        "2026-10-20": { "AC Room": 30 },
-        "2026-10-21": { "AC Room": 30 },
-        "2026-10-22": { "AC Room": 30 }
+        "2026-10-16": {
+          "AC Room": 20
+        },
+        "2026-10-17": {
+          "AC Room": 30
+        },
+        "2026-10-18": {
+          "AC Room": 30
+        },
+        "2026-10-19": {
+          "AC Room": 30
+        },
+        "2026-10-20": {
+          "AC Room": 30
+        },
+        "2026-10-21": {
+          "AC Room": 30
+        },
+        "2026-10-22": {
+          "AC Room": 30
+        }
       }
     },
     {
@@ -226,16 +513,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 20 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 12 },
-        "2026-10-17": { "Deluxe": 20 },
-        "2026-10-18": { "Deluxe": 20 },
-        "2026-10-19": { "Deluxe": 20 },
-        "2026-10-20": { "Deluxe": 20 },
-        "2026-10-21": { "Deluxe": 20 },
-        "2026-10-22": { "Deluxe": 20 }
+        "2026-10-16": {
+          "Deluxe": 12
+        },
+        "2026-10-17": {
+          "Deluxe": 20
+        },
+        "2026-10-18": {
+          "Deluxe": 20
+        },
+        "2026-10-19": {
+          "Deluxe": 20
+        },
+        "2026-10-20": {
+          "Deluxe": 20
+        },
+        "2026-10-21": {
+          "Deluxe": 20
+        },
+        "2026-10-22": {
+          "Deluxe": 20
+        }
       }
     },
     {
@@ -245,16 +549,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard Room", "totalRooms": 15 }
+        {
+          "name": "Standard Room",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard Room": 10 },
-        "2026-10-17": { "Standard Room": 15 },
-        "2026-10-18": { "Standard Room": 15 },
-        "2026-10-19": { "Standard Room": 15 },
-        "2026-10-20": { "Standard Room": 15 },
-        "2026-10-21": { "Standard Room": 15 },
-        "2026-10-22": { "Standard Room": 15 }
+        "2026-10-16": {
+          "Standard Room": 10
+        },
+        "2026-10-17": {
+          "Standard Room": 15
+        },
+        "2026-10-18": {
+          "Standard Room": 15
+        },
+        "2026-10-19": {
+          "Standard Room": 15
+        },
+        "2026-10-20": {
+          "Standard Room": 15
+        },
+        "2026-10-21": {
+          "Standard Room": 15
+        },
+        "2026-10-22": {
+          "Standard Room": 15
+        }
       }
     },
     {
@@ -264,16 +585,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 22 }
+        {
+          "name": "AC Room",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 12 },
-        "2026-10-17": { "AC Room": 22 },
-        "2026-10-18": { "AC Room": 22 },
-        "2026-10-19": { "AC Room": 22 },
-        "2026-10-20": { "AC Room": 22 },
-        "2026-10-21": { "AC Room": 22 },
-        "2026-10-22": { "AC Room": 22 }
+        "2026-10-16": {
+          "AC Room": 12
+        },
+        "2026-10-17": {
+          "AC Room": 22
+        },
+        "2026-10-18": {
+          "AC Room": 22
+        },
+        "2026-10-19": {
+          "AC Room": 22
+        },
+        "2026-10-20": {
+          "AC Room": 22
+        },
+        "2026-10-21": {
+          "AC Room": 22
+        },
+        "2026-10-22": {
+          "AC Room": 22
+        }
       }
     },
     {
@@ -283,16 +621,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 18 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 10 },
-        "2026-10-17": { "Deluxe": 18 },
-        "2026-10-18": { "Deluxe": 18 },
-        "2026-10-19": { "Deluxe": 18 },
-        "2026-10-20": { "Deluxe": 18 },
-        "2026-10-21": { "Deluxe": 18 },
-        "2026-10-22": { "Deluxe": 18 }
+        "2026-10-16": {
+          "Deluxe": 10
+        },
+        "2026-10-17": {
+          "Deluxe": 18
+        },
+        "2026-10-18": {
+          "Deluxe": 18
+        },
+        "2026-10-19": {
+          "Deluxe": 18
+        },
+        "2026-10-20": {
+          "Deluxe": 18
+        },
+        "2026-10-21": {
+          "Deluxe": 18
+        },
+        "2026-10-22": {
+          "Deluxe": 18
+        }
       }
     },
     {
@@ -302,16 +657,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Suite", "totalRooms": 10 }
+        {
+          "name": "Suite",
+          "totalRooms": 10
+        }
       ],
       "availability": {
-        "2026-10-16": { "Suite": 5 },
-        "2026-10-17": { "Suite": 10 },
-        "2026-10-18": { "Suite": 10 },
-        "2026-10-19": { "Suite": 10 },
-        "2026-10-20": { "Suite": 10 },
-        "2026-10-21": { "Suite": 10 },
-        "2026-10-22": { "Suite": 10 }
+        "2026-10-16": {
+          "Suite": 5
+        },
+        "2026-10-17": {
+          "Suite": 10
+        },
+        "2026-10-18": {
+          "Suite": 10
+        },
+        "2026-10-19": {
+          "Suite": 10
+        },
+        "2026-10-20": {
+          "Suite": 10
+        },
+        "2026-10-21": {
+          "Suite": 10
+        },
+        "2026-10-22": {
+          "Suite": 10
+        }
       }
     },
     {
@@ -321,16 +693,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 25 }
+        {
+          "name": "Standard",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 15 },
-        "2026-10-17": { "Standard": 25 },
-        "2026-10-18": { "Standard": 25 },
-        "2026-10-19": { "Standard": 25 },
-        "2026-10-20": { "Standard": 25 },
-        "2026-10-21": { "Standard": 25 },
-        "2026-10-22": { "Standard": 25 }
+        "2026-10-16": {
+          "Standard": 15
+        },
+        "2026-10-17": {
+          "Standard": 25
+        },
+        "2026-10-18": {
+          "Standard": 25
+        },
+        "2026-10-19": {
+          "Standard": 25
+        },
+        "2026-10-20": {
+          "Standard": 25
+        },
+        "2026-10-21": {
+          "Standard": 25
+        },
+        "2026-10-22": {
+          "Standard": 25
+        }
       }
     },
     {
@@ -340,16 +729,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 14 }
+        {
+          "name": "AC Room",
+          "totalRooms": 14
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 8 },
-        "2026-10-17": { "AC Room": 14 },
-        "2026-10-18": { "AC Room": 14 },
-        "2026-10-19": { "AC Room": 14 },
-        "2026-10-20": { "AC Room": 14 },
-        "2026-10-21": { "AC Room": 14 },
-        "2026-10-22": { "AC Room": 14 }
+        "2026-10-16": {
+          "AC Room": 8
+        },
+        "2026-10-17": {
+          "AC Room": 14
+        },
+        "2026-10-18": {
+          "AC Room": 14
+        },
+        "2026-10-19": {
+          "AC Room": 14
+        },
+        "2026-10-20": {
+          "AC Room": 14
+        },
+        "2026-10-21": {
+          "AC Room": 14
+        },
+        "2026-10-22": {
+          "AC Room": 14
+        }
       }
     },
     {
@@ -359,16 +765,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Cottage", "totalRooms": 12 }
+        {
+          "name": "Cottage",
+          "totalRooms": 12
+        }
       ],
       "availability": {
-        "2026-10-16": { "Cottage": 6 },
-        "2026-10-17": { "Cottage": 12 },
-        "2026-10-18": { "Cottage": 12 },
-        "2026-10-19": { "Cottage": 12 },
-        "2026-10-20": { "Cottage": 12 },
-        "2026-10-21": { "Cottage": 12 },
-        "2026-10-22": { "Cottage": 12 }
+        "2026-10-16": {
+          "Cottage": 6
+        },
+        "2026-10-17": {
+          "Cottage": 12
+        },
+        "2026-10-18": {
+          "Cottage": 12
+        },
+        "2026-10-19": {
+          "Cottage": 12
+        },
+        "2026-10-20": {
+          "Cottage": 12
+        },
+        "2026-10-21": {
+          "Cottage": 12
+        },
+        "2026-10-22": {
+          "Cottage": 12
+        }
       }
     },
     {
@@ -378,16 +801,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Luxury Room", "totalRooms": 35 }
+        {
+          "name": "Luxury Room",
+          "totalRooms": 35
+        }
       ],
       "availability": {
-        "2026-10-16": { "Luxury Room": 20 },
-        "2026-10-17": { "Luxury Room": 35 },
-        "2026-10-18": { "Luxury Room": 35 },
-        "2026-10-19": { "Luxury Room": 35 },
-        "2026-10-20": { "Luxury Room": 35 },
-        "2026-10-21": { "Luxury Room": 35 },
-        "2026-10-22": { "Luxury Room": 35 }
+        "2026-10-16": {
+          "Luxury Room": 20
+        },
+        "2026-10-17": {
+          "Luxury Room": 35
+        },
+        "2026-10-18": {
+          "Luxury Room": 35
+        },
+        "2026-10-19": {
+          "Luxury Room": 35
+        },
+        "2026-10-20": {
+          "Luxury Room": 35
+        },
+        "2026-10-21": {
+          "Luxury Room": 35
+        },
+        "2026-10-22": {
+          "Luxury Room": 35
+        }
       }
     },
     {
@@ -397,16 +837,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard Room", "totalRooms": 20 }
+        {
+          "name": "Standard Room",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard Room": 12 },
-        "2026-10-17": { "Standard Room": 20 },
-        "2026-10-18": { "Standard Room": 20 },
-        "2026-10-19": { "Standard Room": 20 },
-        "2026-10-20": { "Standard Room": 20 },
-        "2026-10-21": { "Standard Room": 20 },
-        "2026-10-22": { "Standard Room": 20 }
+        "2026-10-16": {
+          "Standard Room": 12
+        },
+        "2026-10-17": {
+          "Standard Room": 20
+        },
+        "2026-10-18": {
+          "Standard Room": 20
+        },
+        "2026-10-19": {
+          "Standard Room": 20
+        },
+        "2026-10-20": {
+          "Standard Room": 20
+        },
+        "2026-10-21": {
+          "Standard Room": 20
+        },
+        "2026-10-22": {
+          "Standard Room": 20
+        }
       }
     },
     {
@@ -416,16 +873,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Executive Room", "totalRooms": 18 }
+        {
+          "name": "Executive Room",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "Executive Room": 10 },
-        "2026-10-17": { "Executive Room": 18 },
-        "2026-10-18": { "Executive Room": 18 },
-        "2026-10-19": { "Executive Room": 18 },
-        "2026-10-20": { "Executive Room": 18 },
-        "2026-10-21": { "Executive Room": 18 },
-        "2026-10-22": { "Executive Room": 18 }
+        "2026-10-16": {
+          "Executive Room": 10
+        },
+        "2026-10-17": {
+          "Executive Room": 18
+        },
+        "2026-10-18": {
+          "Executive Room": 18
+        },
+        "2026-10-19": {
+          "Executive Room": 18
+        },
+        "2026-10-20": {
+          "Executive Room": 18
+        },
+        "2026-10-21": {
+          "Executive Room": 18
+        },
+        "2026-10-22": {
+          "Executive Room": 18
+        }
       }
     },
     {
@@ -435,16 +909,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe AC", "totalRooms": 25 }
+        {
+          "name": "Deluxe AC",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe AC": 15 },
-        "2026-10-17": { "Deluxe AC": 25 },
-        "2026-10-18": { "Deluxe AC": 25 },
-        "2026-10-19": { "Deluxe AC": 25 },
-        "2026-10-20": { "Deluxe AC": 25 },
-        "2026-10-21": { "Deluxe AC": 25 },
-        "2026-10-22": { "Deluxe AC": 25 }
+        "2026-10-16": {
+          "Deluxe AC": 15
+        },
+        "2026-10-17": {
+          "Deluxe AC": 25
+        },
+        "2026-10-18": {
+          "Deluxe AC": 25
+        },
+        "2026-10-19": {
+          "Deluxe AC": 25
+        },
+        "2026-10-20": {
+          "Deluxe AC": 25
+        },
+        "2026-10-21": {
+          "Deluxe AC": 25
+        },
+        "2026-10-22": {
+          "Deluxe AC": 25
+        }
       }
     },
     {
@@ -454,16 +945,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard Room", "totalRooms": 30 }
+        {
+          "name": "Standard Room",
+          "totalRooms": 30
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard Room": 18 },
-        "2026-10-17": { "Standard Room": 30 },
-        "2026-10-18": { "Standard Room": 30 },
-        "2026-10-19": { "Standard Room": 30 },
-        "2026-10-20": { "Standard Room": 30 },
-        "2026-10-21": { "Standard Room": 30 },
-        "2026-10-22": { "Standard Room": 30 }
+        "2026-10-16": {
+          "Standard Room": 18
+        },
+        "2026-10-17": {
+          "Standard Room": 30
+        },
+        "2026-10-18": {
+          "Standard Room": 30
+        },
+        "2026-10-19": {
+          "Standard Room": 30
+        },
+        "2026-10-20": {
+          "Standard Room": 30
+        },
+        "2026-10-21": {
+          "Standard Room": 30
+        },
+        "2026-10-22": {
+          "Standard Room": 30
+        }
       }
     },
     {
@@ -473,16 +981,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 15 }
+        {
+          "name": "AC Room",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 10 },
-        "2026-10-17": { "AC Room": 15 },
-        "2026-10-18": { "AC Room": 15 },
-        "2026-10-19": { "AC Room": 15 },
-        "2026-10-20": { "AC Room": 15 },
-        "2026-10-21": { "AC Room": 15 },
-        "2026-10-22": { "AC Room": 15 }
+        "2026-10-16": {
+          "AC Room": 10
+        },
+        "2026-10-17": {
+          "AC Room": 15
+        },
+        "2026-10-18": {
+          "AC Room": 15
+        },
+        "2026-10-19": {
+          "AC Room": 15
+        },
+        "2026-10-20": {
+          "AC Room": 15
+        },
+        "2026-10-21": {
+          "AC Room": 15
+        },
+        "2026-10-22": {
+          "AC Room": 15
+        }
       }
     },
     {
@@ -492,16 +1017,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 22 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 12 },
-        "2026-10-17": { "Deluxe": 22 },
-        "2026-10-18": { "Deluxe": 22 },
-        "2026-10-19": { "Deluxe": 22 },
-        "2026-10-20": { "Deluxe": 22 },
-        "2026-10-21": { "Deluxe": 22 },
-        "2026-10-22": { "Deluxe": 22 }
+        "2026-10-16": {
+          "Deluxe": 12
+        },
+        "2026-10-17": {
+          "Deluxe": 22
+        },
+        "2026-10-18": {
+          "Deluxe": 22
+        },
+        "2026-10-19": {
+          "Deluxe": 22
+        },
+        "2026-10-20": {
+          "Deluxe": 22
+        },
+        "2026-10-21": {
+          "Deluxe": 22
+        },
+        "2026-10-22": {
+          "Deluxe": 22
+        }
       }
     },
     {
@@ -511,16 +1053,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Super Deluxe", "totalRooms": 20 }
+        {
+          "name": "Super Deluxe",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Super Deluxe": 14 },
-        "2026-10-17": { "Super Deluxe": 20 },
-        "2026-10-18": { "Super Deluxe": 20 },
-        "2026-10-19": { "Super Deluxe": 20 },
-        "2026-10-20": { "Super Deluxe": 20 },
-        "2026-10-21": { "Super Deluxe": 20 },
-        "2026-10-22": { "Super Deluxe": 20 }
+        "2026-10-16": {
+          "Super Deluxe": 14
+        },
+        "2026-10-17": {
+          "Super Deluxe": 20
+        },
+        "2026-10-18": {
+          "Super Deluxe": 20
+        },
+        "2026-10-19": {
+          "Super Deluxe": 20
+        },
+        "2026-10-20": {
+          "Super Deluxe": 20
+        },
+        "2026-10-21": {
+          "Super Deluxe": 20
+        },
+        "2026-10-22": {
+          "Super Deluxe": 20
+        }
       }
     },
     {
@@ -530,16 +1089,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard Non-AC", "totalRooms": 18 }
+        {
+          "name": "Standard Non-AC",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard Non-AC": 10 },
-        "2026-10-17": { "Standard Non-AC": 18 },
-        "2026-10-18": { "Standard Non-AC": 18 },
-        "2026-10-19": { "Standard Non-AC": 18 },
-        "2026-10-20": { "Standard Non-AC": 18 },
-        "2026-10-21": { "Standard Non-AC": 18 },
-        "2026-10-22": { "Standard Non-AC": 18 }
+        "2026-10-16": {
+          "Standard Non-AC": 10
+        },
+        "2026-10-17": {
+          "Standard Non-AC": 18
+        },
+        "2026-10-18": {
+          "Standard Non-AC": 18
+        },
+        "2026-10-19": {
+          "Standard Non-AC": 18
+        },
+        "2026-10-20": {
+          "Standard Non-AC": 18
+        },
+        "2026-10-21": {
+          "Standard Non-AC": 18
+        },
+        "2026-10-22": {
+          "Standard Non-AC": 18
+        }
       }
     },
     {
@@ -549,16 +1125,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 25 }
+        {
+          "name": "AC Room",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 15 },
-        "2026-10-17": { "AC Room": 25 },
-        "2026-10-18": { "AC Room": 25 },
-        "2026-10-19": { "AC Room": 25 },
-        "2026-10-20": { "AC Room": 25 },
-        "2026-10-21": { "AC Room": 25 },
-        "2026-10-22": { "AC Room": 25 }
+        "2026-10-16": {
+          "AC Room": 15
+        },
+        "2026-10-17": {
+          "AC Room": 25
+        },
+        "2026-10-18": {
+          "AC Room": 25
+        },
+        "2026-10-19": {
+          "AC Room": 25
+        },
+        "2026-10-20": {
+          "AC Room": 25
+        },
+        "2026-10-21": {
+          "AC Room": 25
+        },
+        "2026-10-22": {
+          "AC Room": 25
+        }
       }
     },
     {
@@ -568,16 +1161,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 16 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 16
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 10 },
-        "2026-10-17": { "Deluxe": 16 },
-        "2026-10-18": { "Deluxe": 16 },
-        "2026-10-19": { "Deluxe": 16 },
-        "2026-10-20": { "Deluxe": 16 },
-        "2026-10-21": { "Deluxe": 16 },
-        "2026-10-22": { "Deluxe": 16 }
+        "2026-10-16": {
+          "Deluxe": 10
+        },
+        "2026-10-17": {
+          "Deluxe": 16
+        },
+        "2026-10-18": {
+          "Deluxe": 16
+        },
+        "2026-10-19": {
+          "Deluxe": 16
+        },
+        "2026-10-20": {
+          "Deluxe": 16
+        },
+        "2026-10-21": {
+          "Deluxe": 16
+        },
+        "2026-10-22": {
+          "Deluxe": 16
+        }
       }
     },
     {
@@ -587,16 +1197,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 20 }
+        {
+          "name": "Standard",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 12 },
-        "2026-10-17": { "Standard": 20 },
-        "2026-10-18": { "Standard": 20 },
-        "2026-10-19": { "Standard": 20 },
-        "2026-10-20": { "Standard": 20 },
-        "2026-10-21": { "Standard": 20 },
-        "2026-10-22": { "Standard": 20 }
+        "2026-10-16": {
+          "Standard": 12
+        },
+        "2026-10-17": {
+          "Standard": 20
+        },
+        "2026-10-18": {
+          "Standard": 20
+        },
+        "2026-10-19": {
+          "Standard": 20
+        },
+        "2026-10-20": {
+          "Standard": 20
+        },
+        "2026-10-21": {
+          "Standard": 20
+        },
+        "2026-10-22": {
+          "Standard": 20
+        }
       }
     },
     {
@@ -606,16 +1233,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 24 }
+        {
+          "name": "AC Room",
+          "totalRooms": 24
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 14 },
-        "2026-10-17": { "AC Room": 24 },
-        "2026-10-18": { "AC Room": 24 },
-        "2026-10-19": { "AC Room": 24 },
-        "2026-10-20": { "AC Room": 24 },
-        "2026-10-21": { "AC Room": 24 },
-        "2026-10-22": { "AC Room": 24 }
+        "2026-10-16": {
+          "AC Room": 14
+        },
+        "2026-10-17": {
+          "AC Room": 24
+        },
+        "2026-10-18": {
+          "AC Room": 24
+        },
+        "2026-10-19": {
+          "AC Room": 24
+        },
+        "2026-10-20": {
+          "AC Room": 24
+        },
+        "2026-10-21": {
+          "AC Room": 24
+        },
+        "2026-10-22": {
+          "AC Room": 24
+        }
       }
     },
     {
@@ -625,16 +1269,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 30 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 30
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 18 },
-        "2026-10-17": { "Deluxe": 30 },
-        "2026-10-18": { "Deluxe": 30 },
-        "2026-10-19": { "Deluxe": 30 },
-        "2026-10-20": { "Deluxe": 30 },
-        "2026-10-21": { "Deluxe": 30 },
-        "2026-10-22": { "Deluxe": 30 }
+        "2026-10-16": {
+          "Deluxe": 18
+        },
+        "2026-10-17": {
+          "Deluxe": 30
+        },
+        "2026-10-18": {
+          "Deluxe": 30
+        },
+        "2026-10-19": {
+          "Deluxe": 30
+        },
+        "2026-10-20": {
+          "Deluxe": 30
+        },
+        "2026-10-21": {
+          "Deluxe": 30
+        },
+        "2026-10-22": {
+          "Deluxe": 30
+        }
       }
     },
     {
@@ -644,16 +1305,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 15 }
+        {
+          "name": "Standard",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 8 },
-        "2026-10-17": { "Standard": 15 },
-        "2026-10-18": { "Standard": 15 },
-        "2026-10-19": { "Standard": 15 },
-        "2026-10-20": { "Standard": 15 },
-        "2026-10-21": { "Standard": 15 },
-        "2026-10-22": { "Standard": 15 }
+        "2026-10-16": {
+          "Standard": 8
+        },
+        "2026-10-17": {
+          "Standard": 15
+        },
+        "2026-10-18": {
+          "Standard": 15
+        },
+        "2026-10-19": {
+          "Standard": 15
+        },
+        "2026-10-20": {
+          "Standard": 15
+        },
+        "2026-10-21": {
+          "Standard": 15
+        },
+        "2026-10-22": {
+          "Standard": 15
+        }
       }
     },
     {
@@ -663,16 +1341,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Executive", "totalRooms": 20 }
+        {
+          "name": "Executive",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Executive": 12 },
-        "2026-10-17": { "Executive": 20 },
-        "2026-10-18": { "Executive": 20 },
-        "2026-10-19": { "Executive": 20 },
-        "2026-10-20": { "Executive": 20 },
-        "2026-10-21": { "Executive": 20 },
-        "2026-10-22": { "Executive": 20 }
+        "2026-10-16": {
+          "Executive": 12
+        },
+        "2026-10-17": {
+          "Executive": 20
+        },
+        "2026-10-18": {
+          "Executive": 20
+        },
+        "2026-10-19": {
+          "Executive": 20
+        },
+        "2026-10-20": {
+          "Executive": 20
+        },
+        "2026-10-21": {
+          "Executive": 20
+        },
+        "2026-10-22": {
+          "Executive": 20
+        }
       }
     },
     {
@@ -682,16 +1377,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 18 }
+        {
+          "name": "AC Room",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 10 },
-        "2026-10-17": { "AC Room": 18 },
-        "2026-10-18": { "AC Room": 18 },
-        "2026-10-19": { "AC Room": 18 },
-        "2026-10-20": { "AC Room": 18 },
-        "2026-10-21": { "AC Room": 18 },
-        "2026-10-22": { "AC Room": 18 }
+        "2026-10-16": {
+          "AC Room": 10
+        },
+        "2026-10-17": {
+          "AC Room": 18
+        },
+        "2026-10-18": {
+          "AC Room": 18
+        },
+        "2026-10-19": {
+          "AC Room": 18
+        },
+        "2026-10-20": {
+          "AC Room": 18
+        },
+        "2026-10-21": {
+          "AC Room": 18
+        },
+        "2026-10-22": {
+          "AC Room": 18
+        }
       }
     },
     {
@@ -701,16 +1413,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 22 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 14 },
-        "2026-10-17": { "Deluxe": 22 },
-        "2026-10-18": { "Deluxe": 22 },
-        "2026-10-19": { "Deluxe": 22 },
-        "2026-10-20": { "Deluxe": 22 },
-        "2026-10-21": { "Deluxe": 22 },
-        "2026-10-22": { "Deluxe": 22 }
+        "2026-10-16": {
+          "Deluxe": 14
+        },
+        "2026-10-17": {
+          "Deluxe": 22
+        },
+        "2026-10-18": {
+          "Deluxe": 22
+        },
+        "2026-10-19": {
+          "Deluxe": 22
+        },
+        "2026-10-20": {
+          "Deluxe": 22
+        },
+        "2026-10-21": {
+          "Deluxe": 22
+        },
+        "2026-10-22": {
+          "Deluxe": 22
+        }
       }
     },
     {
@@ -720,16 +1449,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Suite", "totalRooms": 10 }
+        {
+          "name": "Suite",
+          "totalRooms": 10
+        }
       ],
       "availability": {
-        "2026-10-16": { "Suite": 6 },
-        "2026-10-17": { "Suite": 10 },
-        "2026-10-18": { "Suite": 10 },
-        "2026-10-19": { "Suite": 10 },
-        "2026-10-20": { "Suite": 10 },
-        "2026-10-21": { "Suite": 10 },
-        "2026-10-22": { "Suite": 10 }
+        "2026-10-16": {
+          "Suite": 6
+        },
+        "2026-10-17": {
+          "Suite": 10
+        },
+        "2026-10-18": {
+          "Suite": 10
+        },
+        "2026-10-19": {
+          "Suite": 10
+        },
+        "2026-10-20": {
+          "Suite": 10
+        },
+        "2026-10-21": {
+          "Suite": 10
+        },
+        "2026-10-22": {
+          "Suite": 10
+        }
       }
     },
     {
@@ -739,16 +1485,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 25 }
+        {
+          "name": "Standard",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 15 },
-        "2026-10-17": { "Standard": 25 },
-        "2026-10-18": { "Standard": 25 },
-        "2026-10-19": { "Standard": 25 },
-        "2026-10-20": { "Standard": 25 },
-        "2026-10-21": { "Standard": 25 },
-        "2026-10-22": { "Standard": 25 }
+        "2026-10-16": {
+          "Standard": 15
+        },
+        "2026-10-17": {
+          "Standard": 25
+        },
+        "2026-10-18": {
+          "Standard": 25
+        },
+        "2026-10-19": {
+          "Standard": 25
+        },
+        "2026-10-20": {
+          "Standard": 25
+        },
+        "2026-10-21": {
+          "Standard": 25
+        },
+        "2026-10-22": {
+          "Standard": 25
+        }
       }
     },
     {
@@ -758,16 +1521,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Luxury Room", "totalRooms": 20 }
+        {
+          "name": "Luxury Room",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Luxury Room": 12 },
-        "2026-10-17": { "Luxury Room": 20 },
-        "2026-10-18": { "Luxury Room": 20 },
-        "2026-10-19": { "Luxury Room": 20 },
-        "2026-10-20": { "Luxury Room": 20 },
-        "2026-10-21": { "Luxury Room": 20 },
-        "2026-10-22": { "Luxury Room": 20 }
+        "2026-10-16": {
+          "Luxury Room": 12
+        },
+        "2026-10-17": {
+          "Luxury Room": 20
+        },
+        "2026-10-18": {
+          "Luxury Room": 20
+        },
+        "2026-10-19": {
+          "Luxury Room": 20
+        },
+        "2026-10-20": {
+          "Luxury Room": 20
+        },
+        "2026-10-21": {
+          "Luxury Room": 20
+        },
+        "2026-10-22": {
+          "Luxury Room": 20
+        }
       }
     },
     {
@@ -777,16 +1557,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 15 }
+        {
+          "name": "AC Room",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 8 },
-        "2026-10-17": { "AC Room": 15 },
-        "2026-10-18": { "AC Room": 15 },
-        "2026-10-19": { "AC Room": 15 },
-        "2026-10-20": { "AC Room": 15 },
-        "2026-10-21": { "AC Room": 15 },
-        "2026-10-22": { "AC Room": 15 }
+        "2026-10-16": {
+          "AC Room": 8
+        },
+        "2026-10-17": {
+          "AC Room": 15
+        },
+        "2026-10-18": {
+          "AC Room": 15
+        },
+        "2026-10-19": {
+          "AC Room": 15
+        },
+        "2026-10-20": {
+          "AC Room": 15
+        },
+        "2026-10-21": {
+          "AC Room": 15
+        },
+        "2026-10-22": {
+          "AC Room": 15
+        }
       }
     },
     {
@@ -796,16 +1593,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 20 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 12 },
-        "2026-10-17": { "Deluxe": 20 },
-        "2026-10-18": { "Deluxe": 20 },
-        "2026-10-19": { "Deluxe": 20 },
-        "2026-10-20": { "Deluxe": 20 },
-        "2026-10-21": { "Deluxe": 20 },
-        "2026-10-22": { "Deluxe": 20 }
+        "2026-10-16": {
+          "Deluxe": 12
+        },
+        "2026-10-17": {
+          "Deluxe": 20
+        },
+        "2026-10-18": {
+          "Deluxe": 20
+        },
+        "2026-10-19": {
+          "Deluxe": 20
+        },
+        "2026-10-20": {
+          "Deluxe": 20
+        },
+        "2026-10-21": {
+          "Deluxe": 20
+        },
+        "2026-10-22": {
+          "Deluxe": 20
+        }
       }
     },
     {
@@ -815,16 +1629,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 18 }
+        {
+          "name": "Standard",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 10 },
-        "2026-10-17": { "Standard": 18 },
-        "2026-10-18": { "Standard": 18 },
-        "2026-10-19": { "Standard": 18 },
-        "2026-10-20": { "Standard": 18 },
-        "2026-10-21": { "Standard": 18 },
-        "2026-10-22": { "Standard": 18 }
+        "2026-10-16": {
+          "Standard": 10
+        },
+        "2026-10-17": {
+          "Standard": 18
+        },
+        "2026-10-18": {
+          "Standard": 18
+        },
+        "2026-10-19": {
+          "Standard": 18
+        },
+        "2026-10-20": {
+          "Standard": 18
+        },
+        "2026-10-21": {
+          "Standard": 18
+        },
+        "2026-10-22": {
+          "Standard": 18
+        }
       }
     },
     {
@@ -834,16 +1665,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Executive", "totalRooms": 22 }
+        {
+          "name": "Executive",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "Executive": 14 },
-        "2026-10-17": { "Executive": 22 },
-        "2026-10-18": { "Executive": 22 },
-        "2026-10-19": { "Executive": 22 },
-        "2026-10-20": { "Executive": 22 },
-        "2026-10-21": { "Executive": 22 },
-        "2026-10-22": { "Executive": 22 }
+        "2026-10-16": {
+          "Executive": 14
+        },
+        "2026-10-17": {
+          "Executive": 22
+        },
+        "2026-10-18": {
+          "Executive": 22
+        },
+        "2026-10-19": {
+          "Executive": 22
+        },
+        "2026-10-20": {
+          "Executive": 22
+        },
+        "2026-10-21": {
+          "Executive": 22
+        },
+        "2026-10-22": {
+          "Executive": 22
+        }
       }
     },
     {
@@ -853,16 +1701,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 25 }
+        {
+          "name": "AC Room",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 15 },
-        "2026-10-17": { "AC Room": 25 },
-        "2026-10-18": { "AC Room": 25 },
-        "2026-10-19": { "AC Room": 25 },
-        "2026-10-20": { "AC Room": 25 },
-        "2026-10-21": { "AC Room": 25 },
-        "2026-10-22": { "AC Room": 25 }
+        "2026-10-16": {
+          "AC Room": 15
+        },
+        "2026-10-17": {
+          "AC Room": 25
+        },
+        "2026-10-18": {
+          "AC Room": 25
+        },
+        "2026-10-19": {
+          "AC Room": 25
+        },
+        "2026-10-20": {
+          "AC Room": 25
+        },
+        "2026-10-21": {
+          "AC Room": 25
+        },
+        "2026-10-22": {
+          "AC Room": 25
+        }
       }
     },
     {
@@ -872,16 +1737,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj Highway",
       "categories": [
-        { "name": "Standard", "totalRooms": 30 }
+        {
+          "name": "Standard",
+          "totalRooms": 30
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 20 },
-        "2026-10-17": { "Standard": 30 },
-        "2026-10-18": { "Standard": 30 },
-        "2026-10-19": { "Standard": 30 },
-        "2026-10-20": { "Standard": 30 },
-        "2026-10-21": { "Standard": 30 },
-        "2026-10-22": { "Standard": 30 }
+        "2026-10-16": {
+          "Standard": 20
+        },
+        "2026-10-17": {
+          "Standard": 30
+        },
+        "2026-10-18": {
+          "Standard": 30
+        },
+        "2026-10-19": {
+          "Standard": 30
+        },
+        "2026-10-20": {
+          "Standard": 30
+        },
+        "2026-10-21": {
+          "Standard": 30
+        },
+        "2026-10-22": {
+          "Standard": 30
+        }
       }
     },
     {
@@ -891,16 +1773,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 20 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 12 },
-        "2026-10-17": { "Deluxe": 20 },
-        "2026-10-18": { "Deluxe": 20 },
-        "2026-10-19": { "Deluxe": 20 },
-        "2026-10-20": { "Deluxe": 20 },
-        "2026-10-21": { "Deluxe": 20 },
-        "2026-10-22": { "Deluxe": 20 }
+        "2026-10-16": {
+          "Deluxe": 12
+        },
+        "2026-10-17": {
+          "Deluxe": 20
+        },
+        "2026-10-18": {
+          "Deluxe": 20
+        },
+        "2026-10-19": {
+          "Deluxe": 20
+        },
+        "2026-10-20": {
+          "Deluxe": 20
+        },
+        "2026-10-21": {
+          "Deluxe": 20
+        },
+        "2026-10-22": {
+          "Deluxe": 20
+        }
       }
     },
     {
@@ -910,16 +1809,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Executive Room", "totalRooms": 15 }
+        {
+          "name": "Executive Room",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "Executive Room": 9 },
-        "2026-10-17": { "Executive Room": 15 },
-        "2026-10-18": { "Executive Room": 15 },
-        "2026-10-19": { "Executive Room": 15 },
-        "2026-10-20": { "Executive Room": 15 },
-        "2026-10-21": { "Executive Room": 15 },
-        "2026-10-22": { "Executive Room": 15 }
+        "2026-10-16": {
+          "Executive Room": 9
+        },
+        "2026-10-17": {
+          "Executive Room": 15
+        },
+        "2026-10-18": {
+          "Executive Room": 15
+        },
+        "2026-10-19": {
+          "Executive Room": 15
+        },
+        "2026-10-20": {
+          "Executive Room": 15
+        },
+        "2026-10-21": {
+          "Executive Room": 15
+        },
+        "2026-10-22": {
+          "Executive Room": 15
+        }
       }
     },
     {
@@ -929,16 +1845,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 25 }
+        {
+          "name": "AC Room",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 16 },
-        "2026-10-17": { "AC Room": 25 },
-        "2026-10-18": { "AC Room": 25 },
-        "2026-10-19": { "AC Room": 25 },
-        "2026-10-20": { "AC Room": 25 },
-        "2026-10-21": { "AC Room": 25 },
-        "2026-10-22": { "AC Room": 25 }
+        "2026-10-16": {
+          "AC Room": 16
+        },
+        "2026-10-17": {
+          "AC Room": 25
+        },
+        "2026-10-18": {
+          "AC Room": 25
+        },
+        "2026-10-19": {
+          "AC Room": 25
+        },
+        "2026-10-20": {
+          "AC Room": 25
+        },
+        "2026-10-21": {
+          "AC Room": 25
+        },
+        "2026-10-22": {
+          "AC Room": 25
+        }
       }
     },
     {
@@ -948,16 +1881,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Suite", "totalRooms": 12 }
+        {
+          "name": "Suite",
+          "totalRooms": 12
+        }
       ],
       "availability": {
-        "2026-10-16": { "Suite": 7 },
-        "2026-10-17": { "Suite": 12 },
-        "2026-10-18": { "Suite": 12 },
-        "2026-10-19": { "Suite": 12 },
-        "2026-10-20": { "Suite": 12 },
-        "2026-10-21": { "Suite": 12 },
-        "2026-10-22": { "Suite": 12 }
+        "2026-10-16": {
+          "Suite": 7
+        },
+        "2026-10-17": {
+          "Suite": 12
+        },
+        "2026-10-18": {
+          "Suite": 12
+        },
+        "2026-10-19": {
+          "Suite": 12
+        },
+        "2026-10-20": {
+          "Suite": 12
+        },
+        "2026-10-21": {
+          "Suite": 12
+        },
+        "2026-10-22": {
+          "Suite": 12
+        }
       }
     },
     {
@@ -967,16 +1917,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 20 }
+        {
+          "name": "Standard",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 12 },
-        "2026-10-17": { "Standard": 20 },
-        "2026-10-18": { "Standard": 20 },
-        "2026-10-19": { "Standard": 20 },
-        "2026-10-20": { "Standard": 20 },
-        "2026-10-21": { "Standard": 20 },
-        "2026-10-22": { "Standard": 20 }
+        "2026-10-16": {
+          "Standard": 12
+        },
+        "2026-10-17": {
+          "Standard": 20
+        },
+        "2026-10-18": {
+          "Standard": 20
+        },
+        "2026-10-19": {
+          "Standard": 20
+        },
+        "2026-10-20": {
+          "Standard": 20
+        },
+        "2026-10-21": {
+          "Standard": 20
+        },
+        "2026-10-22": {
+          "Standard": 20
+        }
       }
     },
     {
@@ -986,16 +1953,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 22 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 14 },
-        "2026-10-17": { "Deluxe": 22 },
-        "2026-10-18": { "Deluxe": 22 },
-        "2026-10-19": { "Deluxe": 22 },
-        "2026-10-20": { "Deluxe": 22 },
-        "2026-10-21": { "Deluxe": 22 },
-        "2026-10-22": { "Deluxe": 22 }
+        "2026-10-16": {
+          "Deluxe": 14
+        },
+        "2026-10-17": {
+          "Deluxe": 22
+        },
+        "2026-10-18": {
+          "Deluxe": 22
+        },
+        "2026-10-19": {
+          "Deluxe": 22
+        },
+        "2026-10-20": {
+          "Deluxe": 22
+        },
+        "2026-10-21": {
+          "Deluxe": 22
+        },
+        "2026-10-22": {
+          "Deluxe": 22
+        }
       }
     },
     {
@@ -1005,16 +1989,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 18 }
+        {
+          "name": "AC Room",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 10 },
-        "2026-10-17": { "AC Room": 18 },
-        "2026-10-18": { "AC Room": 18 },
-        "2026-10-19": { "AC Room": 18 },
-        "2026-10-20": { "AC Room": 18 },
-        "2026-10-21": { "AC Room": 18 },
-        "2026-10-22": { "AC Room": 18 }
+        "2026-10-16": {
+          "AC Room": 10
+        },
+        "2026-10-17": {
+          "AC Room": 18
+        },
+        "2026-10-18": {
+          "AC Room": 18
+        },
+        "2026-10-19": {
+          "AC Room": 18
+        },
+        "2026-10-20": {
+          "AC Room": 18
+        },
+        "2026-10-21": {
+          "AC Room": 18
+        },
+        "2026-10-22": {
+          "AC Room": 18
+        }
       }
     },
     {
@@ -1024,16 +2025,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 25 }
+        {
+          "name": "Standard",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 15 },
-        "2026-10-17": { "Standard": 25 },
-        "2026-10-18": { "Standard": 25 },
-        "2026-10-19": { "Standard": 25 },
-        "2026-10-20": { "Standard": 25 },
-        "2026-10-21": { "Standard": 25 },
-        "2026-10-22": { "Standard": 25 }
+        "2026-10-16": {
+          "Standard": 15
+        },
+        "2026-10-17": {
+          "Standard": 25
+        },
+        "2026-10-18": {
+          "Standard": 25
+        },
+        "2026-10-19": {
+          "Standard": 25
+        },
+        "2026-10-20": {
+          "Standard": 25
+        },
+        "2026-10-21": {
+          "Standard": 25
+        },
+        "2026-10-22": {
+          "Standard": 25
+        }
       }
     },
     {
@@ -1043,16 +2061,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 20 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 12 },
-        "2026-10-17": { "Deluxe": 20 },
-        "2026-10-18": { "Deluxe": 20 },
-        "2026-10-19": { "Deluxe": 20 },
-        "2026-10-20": { "Deluxe": 20 },
-        "2026-10-21": { "Deluxe": 20 },
-        "2026-10-22": { "Deluxe": 20 }
+        "2026-10-16": {
+          "Deluxe": 12
+        },
+        "2026-10-17": {
+          "Deluxe": 20
+        },
+        "2026-10-18": {
+          "Deluxe": 20
+        },
+        "2026-10-19": {
+          "Deluxe": 20
+        },
+        "2026-10-20": {
+          "Deluxe": 20
+        },
+        "2026-10-21": {
+          "Deluxe": 20
+        },
+        "2026-10-22": {
+          "Deluxe": 20
+        }
       }
     },
     {
@@ -1062,16 +2097,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Hamirsar Lake, Bhuj",
       "categories": [
-        { "name": "Lake View AC", "totalRooms": 15 }
+        {
+          "name": "Lake View AC",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "Lake View AC": 8 },
-        "2026-10-17": { "Lake View AC": 15 },
-        "2026-10-18": { "Lake View AC": 15 },
-        "2026-10-19": { "Lake View AC": 15 },
-        "2026-10-20": { "Lake View AC": 15 },
-        "2026-10-21": { "Lake View AC": 15 },
-        "2026-10-22": { "Lake View AC": 15 }
+        "2026-10-16": {
+          "Lake View AC": 8
+        },
+        "2026-10-17": {
+          "Lake View AC": 15
+        },
+        "2026-10-18": {
+          "Lake View AC": 15
+        },
+        "2026-10-19": {
+          "Lake View AC": 15
+        },
+        "2026-10-20": {
+          "Lake View AC": 15
+        },
+        "2026-10-21": {
+          "Lake View AC": 15
+        },
+        "2026-10-22": {
+          "Lake View AC": 15
+        }
       }
     },
     {
@@ -1081,16 +2133,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 22 }
+        {
+          "name": "Standard",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 12 },
-        "2026-10-17": { "Standard": 22 },
-        "2026-10-18": { "Standard": 22 },
-        "2026-10-19": { "Standard": 22 },
-        "2026-10-20": { "Standard": 22 },
-        "2026-10-21": { "Standard": 22 },
-        "2026-10-22": { "Standard": 22 }
+        "2026-10-16": {
+          "Standard": 12
+        },
+        "2026-10-17": {
+          "Standard": 22
+        },
+        "2026-10-18": {
+          "Standard": 22
+        },
+        "2026-10-19": {
+          "Standard": 22
+        },
+        "2026-10-20": {
+          "Standard": 22
+        },
+        "2026-10-21": {
+          "Standard": 22
+        },
+        "2026-10-22": {
+          "Standard": 22
+        }
       }
     },
     {
@@ -1100,16 +2169,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 18 }
+        {
+          "name": "AC Room",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 10 },
-        "2026-10-17": { "AC Room": 18 },
-        "2026-10-18": { "AC Room": 18 },
-        "2026-10-19": { "AC Room": 18 },
-        "2026-10-20": { "AC Room": 18 },
-        "2026-10-21": { "AC Room": 18 },
-        "2026-10-22": { "AC Room": 18 }
+        "2026-10-16": {
+          "AC Room": 10
+        },
+        "2026-10-17": {
+          "AC Room": 18
+        },
+        "2026-10-18": {
+          "AC Room": 18
+        },
+        "2026-10-19": {
+          "AC Room": 18
+        },
+        "2026-10-20": {
+          "AC Room": 18
+        },
+        "2026-10-21": {
+          "AC Room": 18
+        },
+        "2026-10-22": {
+          "AC Room": 18
+        }
       }
     },
     {
@@ -1119,16 +2205,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 25 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 15 },
-        "2026-10-17": { "Deluxe": 25 },
-        "2026-10-18": { "Deluxe": 25 },
-        "2026-10-19": { "Deluxe": 25 },
-        "2026-10-20": { "Deluxe": 25 },
-        "2026-10-21": { "Deluxe": 25 },
-        "2026-10-22": { "Deluxe": 25 }
+        "2026-10-16": {
+          "Deluxe": 15
+        },
+        "2026-10-17": {
+          "Deluxe": 25
+        },
+        "2026-10-18": {
+          "Deluxe": 25
+        },
+        "2026-10-19": {
+          "Deluxe": 25
+        },
+        "2026-10-20": {
+          "Deluxe": 25
+        },
+        "2026-10-21": {
+          "Deluxe": 25
+        },
+        "2026-10-22": {
+          "Deluxe": 25
+        }
       }
     },
     {
@@ -1138,16 +2241,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 15 }
+        {
+          "name": "Standard",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 8 },
-        "2026-10-17": { "Standard": 15 },
-        "2026-10-18": { "Standard": 15 },
-        "2026-10-19": { "Standard": 15 },
-        "2026-10-20": { "Standard": 15 },
-        "2026-10-21": { "Standard": 15 },
-        "2026-10-22": { "Standard": 15 }
+        "2026-10-16": {
+          "Standard": 8
+        },
+        "2026-10-17": {
+          "Standard": 15
+        },
+        "2026-10-18": {
+          "Standard": 15
+        },
+        "2026-10-19": {
+          "Standard": 15
+        },
+        "2026-10-20": {
+          "Standard": 15
+        },
+        "2026-10-21": {
+          "Standard": 15
+        },
+        "2026-10-22": {
+          "Standard": 15
+        }
       }
     },
     {
@@ -1157,16 +2277,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 20 }
+        {
+          "name": "AC Room",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 12 },
-        "2026-10-17": { "AC Room": 20 },
-        "2026-10-18": { "AC Room": 20 },
-        "2026-10-19": { "AC Room": 20 },
-        "2026-10-20": { "AC Room": 20 },
-        "2026-10-21": { "AC Room": 20 },
-        "2026-10-22": { "AC Room": 20 }
+        "2026-10-16": {
+          "AC Room": 12
+        },
+        "2026-10-17": {
+          "AC Room": 20
+        },
+        "2026-10-18": {
+          "AC Room": 20
+        },
+        "2026-10-19": {
+          "AC Room": 20
+        },
+        "2026-10-20": {
+          "AC Room": 20
+        },
+        "2026-10-21": {
+          "AC Room": 20
+        },
+        "2026-10-22": {
+          "AC Room": 20
+        }
       }
     },
     {
@@ -1176,16 +2313,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 22 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 12 },
-        "2026-10-17": { "Deluxe": 22 },
-        "2026-10-18": { "Deluxe": 22 },
-        "2026-10-19": { "Deluxe": 22 },
-        "2026-10-20": { "Deluxe": 22 },
-        "2026-10-21": { "Deluxe": 22 },
-        "2026-10-22": { "Deluxe": 22 }
+        "2026-10-16": {
+          "Deluxe": 12
+        },
+        "2026-10-17": {
+          "Deluxe": 22
+        },
+        "2026-10-18": {
+          "Deluxe": 22
+        },
+        "2026-10-19": {
+          "Deluxe": 22
+        },
+        "2026-10-20": {
+          "Deluxe": 22
+        },
+        "2026-10-21": {
+          "Deluxe": 22
+        },
+        "2026-10-22": {
+          "Deluxe": 22
+        }
       }
     },
     {
@@ -1195,16 +2349,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Mandvi",
       "categories": [
-        { "name": "Sea Facing", "totalRooms": 15 }
+        {
+          "name": "Sea Facing",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "Sea Facing": 8 },
-        "2026-10-17": { "Sea Facing": 15 },
-        "2026-10-18": { "Sea Facing": 15 },
-        "2026-10-19": { "Sea Facing": 15 },
-        "2026-10-20": { "Sea Facing": 15 },
-        "2026-10-21": { "Sea Facing": 15 },
-        "2026-10-22": { "Sea Facing": 15 }
+        "2026-10-16": {
+          "Sea Facing": 8
+        },
+        "2026-10-17": {
+          "Sea Facing": 15
+        },
+        "2026-10-18": {
+          "Sea Facing": 15
+        },
+        "2026-10-19": {
+          "Sea Facing": 15
+        },
+        "2026-10-20": {
+          "Sea Facing": 15
+        },
+        "2026-10-21": {
+          "Sea Facing": 15
+        },
+        "2026-10-22": {
+          "Sea Facing": 15
+        }
       }
     },
     {
@@ -1214,16 +2385,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Suite", "totalRooms": 10 }
+        {
+          "name": "Suite",
+          "totalRooms": 10
+        }
       ],
       "availability": {
-        "2026-10-16": { "Suite": 5 },
-        "2026-10-17": { "Suite": 10 },
-        "2026-10-18": { "Suite": 10 },
-        "2026-10-19": { "Suite": 10 },
-        "2026-10-20": { "Suite": 10 },
-        "2026-10-21": { "Suite": 10 },
-        "2026-10-22": { "Suite": 10 }
+        "2026-10-16": {
+          "Suite": 5
+        },
+        "2026-10-17": {
+          "Suite": 10
+        },
+        "2026-10-18": {
+          "Suite": 10
+        },
+        "2026-10-19": {
+          "Suite": 10
+        },
+        "2026-10-20": {
+          "Suite": 10
+        },
+        "2026-10-21": {
+          "Suite": 10
+        },
+        "2026-10-22": {
+          "Suite": 10
+        }
       }
     },
     {
@@ -1233,16 +2421,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 25 }
+        {
+          "name": "Standard",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 15 },
-        "2026-10-17": { "Standard": 25 },
-        "2026-10-18": { "Standard": 25 },
-        "2026-10-19": { "Standard": 25 },
-        "2026-10-20": { "Standard": 25 },
-        "2026-10-21": { "Standard": 25 },
-        "2026-10-22": { "Standard": 25 }
+        "2026-10-16": {
+          "Standard": 15
+        },
+        "2026-10-17": {
+          "Standard": 25
+        },
+        "2026-10-18": {
+          "Standard": 25
+        },
+        "2026-10-19": {
+          "Standard": 25
+        },
+        "2026-10-20": {
+          "Standard": 25
+        },
+        "2026-10-21": {
+          "Standard": 25
+        },
+        "2026-10-22": {
+          "Standard": 25
+        }
       }
     },
     {
@@ -1252,16 +2457,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 20 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 10 },
-        "2026-10-17": { "Deluxe": 20 },
-        "2026-10-18": { "Deluxe": 20 },
-        "2026-10-19": { "Deluxe": 20 },
-        "2026-10-20": { "Deluxe": 20 },
-        "2026-10-21": { "Deluxe": 20 },
-        "2026-10-22": { "Deluxe": 20 }
+        "2026-10-16": {
+          "Deluxe": 10
+        },
+        "2026-10-17": {
+          "Deluxe": 20
+        },
+        "2026-10-18": {
+          "Deluxe": 20
+        },
+        "2026-10-19": {
+          "Deluxe": 20
+        },
+        "2026-10-20": {
+          "Deluxe": 20
+        },
+        "2026-10-21": {
+          "Deluxe": 20
+        },
+        "2026-10-22": {
+          "Deluxe": 20
+        }
       }
     },
     {
@@ -1271,16 +2493,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 18 }
+        {
+          "name": "AC Room",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 10 },
-        "2026-10-17": { "AC Room": 18 },
-        "2026-10-18": { "AC Room": 18 },
-        "2026-10-19": { "AC Room": 18 },
-        "2026-10-20": { "AC Room": 18 },
-        "2026-10-21": { "AC Room": 18 },
-        "2026-10-22": { "AC Room": 18 }
+        "2026-10-16": {
+          "AC Room": 10
+        },
+        "2026-10-17": {
+          "AC Room": 18
+        },
+        "2026-10-18": {
+          "AC Room": 18
+        },
+        "2026-10-19": {
+          "AC Room": 18
+        },
+        "2026-10-20": {
+          "AC Room": 18
+        },
+        "2026-10-21": {
+          "AC Room": 18
+        },
+        "2026-10-22": {
+          "AC Room": 18
+        }
       }
     },
     {
@@ -1290,16 +2529,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 22 }
+        {
+          "name": "Standard",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 12 },
-        "2026-10-17": { "Standard": 22 },
-        "2026-10-18": { "Standard": 22 },
-        "2026-10-19": { "Standard": 22 },
-        "2026-10-20": { "Standard": 22 },
-        "2026-10-21": { "Standard": 22 },
-        "2026-10-22": { "Standard": 22 }
+        "2026-10-16": {
+          "Standard": 12
+        },
+        "2026-10-17": {
+          "Standard": 22
+        },
+        "2026-10-18": {
+          "Standard": 22
+        },
+        "2026-10-19": {
+          "Standard": 22
+        },
+        "2026-10-20": {
+          "Standard": 22
+        },
+        "2026-10-21": {
+          "Standard": 22
+        },
+        "2026-10-22": {
+          "Standard": 22
+        }
       }
     },
     {
@@ -1309,16 +2565,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 15 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 8 },
-        "2026-10-17": { "Deluxe": 15 },
-        "2026-10-18": { "Deluxe": 15 },
-        "2026-10-19": { "Deluxe": 15 },
-        "2026-10-20": { "Deluxe": 15 },
-        "2026-10-21": { "Deluxe": 15 },
-        "2026-10-22": { "Deluxe": 15 }
+        "2026-10-16": {
+          "Deluxe": 8
+        },
+        "2026-10-17": {
+          "Deluxe": 15
+        },
+        "2026-10-18": {
+          "Deluxe": 15
+        },
+        "2026-10-19": {
+          "Deluxe": 15
+        },
+        "2026-10-20": {
+          "Deluxe": 15
+        },
+        "2026-10-21": {
+          "Deluxe": 15
+        },
+        "2026-10-22": {
+          "Deluxe": 15
+        }
       }
     },
     {
@@ -1328,16 +2601,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 20 }
+        {
+          "name": "AC Room",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 12 },
-        "2026-10-17": { "AC Room": 20 },
-        "2026-10-18": { "AC Room": 20 },
-        "2026-10-19": { "AC Room": 20 },
-        "2026-10-20": { "AC Room": 20 },
-        "2026-10-21": { "AC Room": 20 },
-        "2026-10-22": { "AC Room": 20 }
+        "2026-10-16": {
+          "AC Room": 12
+        },
+        "2026-10-17": {
+          "AC Room": 20
+        },
+        "2026-10-18": {
+          "AC Room": 20
+        },
+        "2026-10-19": {
+          "AC Room": 20
+        },
+        "2026-10-20": {
+          "AC Room": 20
+        },
+        "2026-10-21": {
+          "AC Room": 20
+        },
+        "2026-10-22": {
+          "AC Room": 20
+        }
       }
     },
     {
@@ -1347,16 +2637,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 25 }
+        {
+          "name": "Standard",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 15 },
-        "2026-10-17": { "Standard": 25 },
-        "2026-10-18": { "Standard": 25 },
-        "2026-10-19": { "Standard": 25 },
-        "2026-10-20": { "Standard": 25 },
-        "2026-10-21": { "Standard": 25 },
-        "2026-10-22": { "Standard": 25 }
+        "2026-10-16": {
+          "Standard": 15
+        },
+        "2026-10-17": {
+          "Standard": 25
+        },
+        "2026-10-18": {
+          "Standard": 25
+        },
+        "2026-10-19": {
+          "Standard": 25
+        },
+        "2026-10-20": {
+          "Standard": 25
+        },
+        "2026-10-21": {
+          "Standard": 25
+        },
+        "2026-10-22": {
+          "Standard": 25
+        }
       }
     },
     {
@@ -1366,16 +2673,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 18 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 10 },
-        "2026-10-17": { "Deluxe": 18 },
-        "2026-10-18": { "Deluxe": 18 },
-        "2026-10-19": { "Deluxe": 18 },
-        "2026-10-20": { "Deluxe": 18 },
-        "2026-10-21": { "Deluxe": 18 },
-        "2026-10-22": { "Deluxe": 18 }
+        "2026-10-16": {
+          "Deluxe": 10
+        },
+        "2026-10-17": {
+          "Deluxe": 18
+        },
+        "2026-10-18": {
+          "Deluxe": 18
+        },
+        "2026-10-19": {
+          "Deluxe": 18
+        },
+        "2026-10-20": {
+          "Deluxe": 18
+        },
+        "2026-10-21": {
+          "Deluxe": 18
+        },
+        "2026-10-22": {
+          "Deluxe": 18
+        }
       }
     },
     {
@@ -1385,16 +2709,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 22 }
+        {
+          "name": "AC Room",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 12 },
-        "2026-10-17": { "AC Room": 22 },
-        "2026-10-18": { "AC Room": 22 },
-        "2026-10-19": { "AC Room": 22 },
-        "2026-10-20": { "AC Room": 22 },
-        "2026-10-21": { "AC Room": 22 },
-        "2026-10-22": { "AC Room": 22 }
+        "2026-10-16": {
+          "AC Room": 12
+        },
+        "2026-10-17": {
+          "AC Room": 22
+        },
+        "2026-10-18": {
+          "AC Room": 22
+        },
+        "2026-10-19": {
+          "AC Room": 22
+        },
+        "2026-10-20": {
+          "AC Room": 22
+        },
+        "2026-10-21": {
+          "AC Room": 22
+        },
+        "2026-10-22": {
+          "AC Room": 22
+        }
       }
     },
     {
@@ -1404,16 +2745,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 20 }
+        {
+          "name": "Standard",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 10 },
-        "2026-10-17": { "Standard": 20 },
-        "2026-10-18": { "Standard": 20 },
-        "2026-10-19": { "Standard": 20 },
-        "2026-10-20": { "Standard": 20 },
-        "2026-10-21": { "Standard": 20 },
-        "2026-10-22": { "Standard": 20 }
+        "2026-10-16": {
+          "Standard": 10
+        },
+        "2026-10-17": {
+          "Standard": 20
+        },
+        "2026-10-18": {
+          "Standard": 20
+        },
+        "2026-10-19": {
+          "Standard": 20
+        },
+        "2026-10-20": {
+          "Standard": 20
+        },
+        "2026-10-21": {
+          "Standard": 20
+        },
+        "2026-10-22": {
+          "Standard": 20
+        }
       }
     },
     {
@@ -1423,16 +2781,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 30 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 30
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 18 },
-        "2026-10-17": { "Deluxe": 30 },
-        "2026-10-18": { "Deluxe": 30 },
-        "2026-10-19": { "Deluxe": 30 },
-        "2026-10-20": { "Deluxe": 30 },
-        "2026-10-21": { "Deluxe": 30 },
-        "2026-10-22": { "Deluxe": 30 }
+        "2026-10-16": {
+          "Deluxe": 18
+        },
+        "2026-10-17": {
+          "Deluxe": 30
+        },
+        "2026-10-18": {
+          "Deluxe": 30
+        },
+        "2026-10-19": {
+          "Deluxe": 30
+        },
+        "2026-10-20": {
+          "Deluxe": 30
+        },
+        "2026-10-21": {
+          "Deluxe": 30
+        },
+        "2026-10-22": {
+          "Deluxe": 30
+        }
       }
     },
     {
@@ -1442,16 +2817,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 15 }
+        {
+          "name": "AC Room",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 8 },
-        "2026-10-17": { "AC Room": 15 },
-        "2026-10-18": { "AC Room": 15 },
-        "2026-10-19": { "AC Room": 15 },
-        "2026-10-20": { "AC Room": 15 },
-        "2026-10-21": { "AC Room": 15 },
-        "2026-10-22": { "AC Room": 15 }
+        "2026-10-16": {
+          "AC Room": 8
+        },
+        "2026-10-17": {
+          "AC Room": 15
+        },
+        "2026-10-18": {
+          "AC Room": 15
+        },
+        "2026-10-19": {
+          "AC Room": 15
+        },
+        "2026-10-20": {
+          "AC Room": 15
+        },
+        "2026-10-21": {
+          "AC Room": 15
+        },
+        "2026-10-22": {
+          "AC Room": 15
+        }
       }
     },
     {
@@ -1461,16 +2853,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 18 }
+        {
+          "name": "Standard",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 10 },
-        "2026-10-17": { "Standard": 18 },
-        "2026-10-18": { "Standard": 18 },
-        "2026-10-19": { "Standard": 18 },
-        "2026-10-20": { "Standard": 18 },
-        "2026-10-21": { "Standard": 18 },
-        "2026-10-22": { "Standard": 18 }
+        "2026-10-16": {
+          "Standard": 10
+        },
+        "2026-10-17": {
+          "Standard": 18
+        },
+        "2026-10-18": {
+          "Standard": 18
+        },
+        "2026-10-19": {
+          "Standard": 18
+        },
+        "2026-10-20": {
+          "Standard": 18
+        },
+        "2026-10-21": {
+          "Standard": 18
+        },
+        "2026-10-22": {
+          "Standard": 18
+        }
       }
     },
     {
@@ -1480,16 +2889,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 25 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 15 },
-        "2026-10-17": { "Deluxe": 25 },
-        "2026-10-18": { "Deluxe": 25 },
-        "2026-10-19": { "Deluxe": 25 },
-        "2026-10-20": { "Deluxe": 25 },
-        "2026-10-21": { "Deluxe": 25 },
-        "2026-10-22": { "Deluxe": 25 }
+        "2026-10-16": {
+          "Deluxe": 15
+        },
+        "2026-10-17": {
+          "Deluxe": 25
+        },
+        "2026-10-18": {
+          "Deluxe": 25
+        },
+        "2026-10-19": {
+          "Deluxe": 25
+        },
+        "2026-10-20": {
+          "Deluxe": 25
+        },
+        "2026-10-21": {
+          "Deluxe": 25
+        },
+        "2026-10-22": {
+          "Deluxe": 25
+        }
       }
     },
     {
@@ -1499,16 +2925,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 20 }
+        {
+          "name": "AC Room",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 12 },
-        "2026-10-17": { "AC Room": 20 },
-        "2026-10-18": { "AC Room": 20 },
-        "2026-10-19": { "AC Room": 20 },
-        "2026-10-20": { "AC Room": 20 },
-        "2026-10-21": { "AC Room": 20 },
-        "2026-10-22": { "AC Room": 20 }
+        "2026-10-16": {
+          "AC Room": 12
+        },
+        "2026-10-17": {
+          "AC Room": 20
+        },
+        "2026-10-18": {
+          "AC Room": 20
+        },
+        "2026-10-19": {
+          "AC Room": 20
+        },
+        "2026-10-20": {
+          "AC Room": 20
+        },
+        "2026-10-21": {
+          "AC Room": 20
+        },
+        "2026-10-22": {
+          "AC Room": 20
+        }
       }
     },
     {
@@ -1518,16 +2961,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 22 }
+        {
+          "name": "Standard",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 12 },
-        "2026-10-17": { "Standard": 22 },
-        "2026-10-18": { "Standard": 22 },
-        "2026-10-19": { "Standard": 22 },
-        "2026-10-20": { "Standard": 22 },
-        "2026-10-21": { "Standard": 22 },
-        "2026-10-22": { "Standard": 22 }
+        "2026-10-16": {
+          "Standard": 12
+        },
+        "2026-10-17": {
+          "Standard": 22
+        },
+        "2026-10-18": {
+          "Standard": 22
+        },
+        "2026-10-19": {
+          "Standard": 22
+        },
+        "2026-10-20": {
+          "Standard": 22
+        },
+        "2026-10-21": {
+          "Standard": 22
+        },
+        "2026-10-22": {
+          "Standard": 22
+        }
       }
     },
     {
@@ -1537,16 +2997,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 18 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 10 },
-        "2026-10-17": { "Deluxe": 18 },
-        "2026-10-18": { "Deluxe": 18 },
-        "2026-10-19": { "Deluxe": 18 },
-        "2026-10-20": { "Deluxe": 18 },
-        "2026-10-21": { "Deluxe": 18 },
-        "2026-10-22": { "Deluxe": 18 }
+        "2026-10-16": {
+          "Deluxe": 10
+        },
+        "2026-10-17": {
+          "Deluxe": 18
+        },
+        "2026-10-18": {
+          "Deluxe": 18
+        },
+        "2026-10-19": {
+          "Deluxe": 18
+        },
+        "2026-10-20": {
+          "Deluxe": 18
+        },
+        "2026-10-21": {
+          "Deluxe": 18
+        },
+        "2026-10-22": {
+          "Deluxe": 18
+        }
       }
     },
     {
@@ -1556,16 +3033,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 25 }
+        {
+          "name": "AC Room",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 15 },
-        "2026-10-17": { "AC Room": 25 },
-        "2026-10-18": { "AC Room": 25 },
-        "2026-10-19": { "AC Room": 25 },
-        "2026-10-20": { "AC Room": 25 },
-        "2026-10-21": { "AC Room": 25 },
-        "2026-10-22": { "AC Room": 25 }
+        "2026-10-16": {
+          "AC Room": 15
+        },
+        "2026-10-17": {
+          "AC Room": 25
+        },
+        "2026-10-18": {
+          "AC Room": 25
+        },
+        "2026-10-19": {
+          "AC Room": 25
+        },
+        "2026-10-20": {
+          "AC Room": 25
+        },
+        "2026-10-21": {
+          "AC Room": 25
+        },
+        "2026-10-22": {
+          "AC Room": 25
+        }
       }
     },
     {
@@ -1575,16 +3069,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Suite", "totalRooms": 10 }
+        {
+          "name": "Suite",
+          "totalRooms": 10
+        }
       ],
       "availability": {
-        "2026-10-16": { "Suite": 6 },
-        "2026-10-17": { "Suite": 10 },
-        "2026-10-18": { "Suite": 10 },
-        "2026-10-19": { "Suite": 10 },
-        "2026-10-20": { "Suite": 10 },
-        "2026-10-21": { "Suite": 10 },
-        "2026-10-22": { "Suite": 10 }
+        "2026-10-16": {
+          "Suite": 6
+        },
+        "2026-10-17": {
+          "Suite": 10
+        },
+        "2026-10-18": {
+          "Suite": 10
+        },
+        "2026-10-19": {
+          "Suite": 10
+        },
+        "2026-10-20": {
+          "Suite": 10
+        },
+        "2026-10-21": {
+          "Suite": 10
+        },
+        "2026-10-22": {
+          "Suite": 10
+        }
       }
     },
     {
@@ -1594,16 +3105,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 30 }
+        {
+          "name": "Standard",
+          "totalRooms": 30
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 18 },
-        "2026-10-17": { "Standard": 30 },
-        "2026-10-18": { "Standard": 30 },
-        "2026-10-19": { "Standard": 30 },
-        "2026-10-20": { "Standard": 30 },
-        "2026-10-21": { "Standard": 30 },
-        "2026-10-22": { "Standard": 30 }
+        "2026-10-16": {
+          "Standard": 18
+        },
+        "2026-10-17": {
+          "Standard": 30
+        },
+        "2026-10-18": {
+          "Standard": 30
+        },
+        "2026-10-19": {
+          "Standard": 30
+        },
+        "2026-10-20": {
+          "Standard": 30
+        },
+        "2026-10-21": {
+          "Standard": 30
+        },
+        "2026-10-22": {
+          "Standard": 30
+        }
       }
     },
     {
@@ -1613,16 +3141,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 20 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 12 },
-        "2026-10-17": { "Deluxe": 20 },
-        "2026-10-18": { "Deluxe": 20 },
-        "2026-10-19": { "Deluxe": 20 },
-        "2026-10-20": { "Deluxe": 20 },
-        "2026-10-21": { "Deluxe": 20 },
-        "2026-10-22": { "Deluxe": 20 }
+        "2026-10-16": {
+          "Deluxe": 12
+        },
+        "2026-10-17": {
+          "Deluxe": 20
+        },
+        "2026-10-18": {
+          "Deluxe": 20
+        },
+        "2026-10-19": {
+          "Deluxe": 20
+        },
+        "2026-10-20": {
+          "Deluxe": 20
+        },
+        "2026-10-21": {
+          "Deluxe": 20
+        },
+        "2026-10-22": {
+          "Deluxe": 20
+        }
       }
     },
     {
@@ -1632,16 +3177,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 25 }
+        {
+          "name": "AC Room",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 15 },
-        "2026-10-17": { "AC Room": 25 },
-        "2026-10-18": { "AC Room": 25 },
-        "2026-10-19": { "AC Room": 25 },
-        "2026-10-20": { "AC Room": 25 },
-        "2026-10-21": { "AC Room": 25 },
-        "2026-10-22": { "AC Room": 25 }
+        "2026-10-16": {
+          "AC Room": 15
+        },
+        "2026-10-17": {
+          "AC Room": 25
+        },
+        "2026-10-18": {
+          "AC Room": 25
+        },
+        "2026-10-19": {
+          "AC Room": 25
+        },
+        "2026-10-20": {
+          "AC Room": 25
+        },
+        "2026-10-21": {
+          "AC Room": 25
+        },
+        "2026-10-22": {
+          "AC Room": 25
+        }
       }
     },
     {
@@ -1651,16 +3213,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 15 }
+        {
+          "name": "Standard",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 8 },
-        "2026-10-17": { "Standard": 15 },
-        "2026-10-18": { "Standard": 15 },
-        "2026-10-19": { "Standard": 15 },
-        "2026-10-20": { "Standard": 15 },
-        "2026-10-21": { "Standard": 15 },
-        "2026-10-22": { "Standard": 15 }
+        "2026-10-16": {
+          "Standard": 8
+        },
+        "2026-10-17": {
+          "Standard": 15
+        },
+        "2026-10-18": {
+          "Standard": 15
+        },
+        "2026-10-19": {
+          "Standard": 15
+        },
+        "2026-10-20": {
+          "Standard": 15
+        },
+        "2026-10-21": {
+          "Standard": 15
+        },
+        "2026-10-22": {
+          "Standard": 15
+        }
       }
     },
     {
@@ -1670,16 +3249,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 18 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 10 },
-        "2026-10-17": { "Deluxe": 18 },
-        "2026-10-18": { "Deluxe": 18 },
-        "2026-10-19": { "Deluxe": 18 },
-        "2026-10-20": { "Deluxe": 18 },
-        "2026-10-21": { "Deluxe": 18 },
-        "2026-10-22": { "Deluxe": 18 }
+        "2026-10-16": {
+          "Deluxe": 10
+        },
+        "2026-10-17": {
+          "Deluxe": 18
+        },
+        "2026-10-18": {
+          "Deluxe": 18
+        },
+        "2026-10-19": {
+          "Deluxe": 18
+        },
+        "2026-10-20": {
+          "Deluxe": 18
+        },
+        "2026-10-21": {
+          "Deluxe": 18
+        },
+        "2026-10-22": {
+          "Deluxe": 18
+        }
       }
     },
     {
@@ -1689,16 +3285,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 22 }
+        {
+          "name": "AC Room",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 12 },
-        "2026-10-17": { "AC Room": 22 },
-        "2026-10-18": { "AC Room": 22 },
-        "2026-10-19": { "AC Room": 22 },
-        "2026-10-20": { "AC Room": 22 },
-        "2026-10-21": { "AC Room": 22 },
-        "2026-10-22": { "AC Room": 22 }
+        "2026-10-16": {
+          "AC Room": 12
+        },
+        "2026-10-17": {
+          "AC Room": 22
+        },
+        "2026-10-18": {
+          "AC Room": 22
+        },
+        "2026-10-19": {
+          "AC Room": 22
+        },
+        "2026-10-20": {
+          "AC Room": 22
+        },
+        "2026-10-21": {
+          "AC Room": 22
+        },
+        "2026-10-22": {
+          "AC Room": 22
+        }
       }
     },
     {
@@ -1708,16 +3321,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 20 }
+        {
+          "name": "Standard",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 12 },
-        "2026-10-17": { "Standard": 20 },
-        "2026-10-18": { "Standard": 20 },
-        "2026-10-19": { "Standard": 20 },
-        "2026-10-20": { "Standard": 20 },
-        "2026-10-21": { "Standard": 20 },
-        "2026-10-22": { "Standard": 20 }
+        "2026-10-16": {
+          "Standard": 12
+        },
+        "2026-10-17": {
+          "Standard": 20
+        },
+        "2026-10-18": {
+          "Standard": 20
+        },
+        "2026-10-19": {
+          "Standard": 20
+        },
+        "2026-10-20": {
+          "Standard": 20
+        },
+        "2026-10-21": {
+          "Standard": 20
+        },
+        "2026-10-22": {
+          "Standard": 20
+        }
       }
     },
     {
@@ -1727,16 +3357,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 25 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 15 },
-        "2026-10-17": { "Deluxe": 25 },
-        "2026-10-18": { "Deluxe": 25 },
-        "2026-10-19": { "Deluxe": 25 },
-        "2026-10-20": { "Deluxe": 25 },
-        "2026-10-21": { "Deluxe": 25 },
-        "2026-10-22": { "Deluxe": 25 }
+        "2026-10-16": {
+          "Deluxe": 15
+        },
+        "2026-10-17": {
+          "Deluxe": 25
+        },
+        "2026-10-18": {
+          "Deluxe": 25
+        },
+        "2026-10-19": {
+          "Deluxe": 25
+        },
+        "2026-10-20": {
+          "Deluxe": 25
+        },
+        "2026-10-21": {
+          "Deluxe": 25
+        },
+        "2026-10-22": {
+          "Deluxe": 25
+        }
       }
     },
     {
@@ -1746,16 +3393,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 18 }
+        {
+          "name": "AC Room",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 10 },
-        "2026-10-17": { "AC Room": 18 },
-        "2026-10-18": { "AC Room": 18 },
-        "2026-10-19": { "AC Room": 18 },
-        "2026-10-20": { "AC Room": 18 },
-        "2026-10-21": { "AC Room": 18 },
-        "2026-10-22": { "AC Room": 18 }
+        "2026-10-16": {
+          "AC Room": 10
+        },
+        "2026-10-17": {
+          "AC Room": 18
+        },
+        "2026-10-18": {
+          "AC Room": 18
+        },
+        "2026-10-19": {
+          "AC Room": 18
+        },
+        "2026-10-20": {
+          "AC Room": 18
+        },
+        "2026-10-21": {
+          "AC Room": 18
+        },
+        "2026-10-22": {
+          "AC Room": 18
+        }
       }
     },
     {
@@ -1765,16 +3429,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 15 }
+        {
+          "name": "Standard",
+          "totalRooms": 15
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 8 },
-        "2026-10-17": { "Standard": 15 },
-        "2026-10-18": { "Standard": 15 },
-        "2026-10-19": { "Standard": 15 },
-        "2026-10-20": { "Standard": 15 },
-        "2026-10-21": { "Standard": 15 },
-        "2026-10-22": { "Standard": 15 }
+        "2026-10-16": {
+          "Standard": 8
+        },
+        "2026-10-17": {
+          "Standard": 15
+        },
+        "2026-10-18": {
+          "Standard": 15
+        },
+        "2026-10-19": {
+          "Standard": 15
+        },
+        "2026-10-20": {
+          "Standard": 15
+        },
+        "2026-10-21": {
+          "Standard": 15
+        },
+        "2026-10-22": {
+          "Standard": 15
+        }
       }
     },
     {
@@ -1784,16 +3465,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 22 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 12 },
-        "2026-10-17": { "Deluxe": 22 },
-        "2026-10-18": { "Deluxe": 22 },
-        "2026-10-19": { "Deluxe": 22 },
-        "2026-10-20": { "Deluxe": 22 },
-        "2026-10-21": { "Deluxe": 22 },
-        "2026-10-22": { "Deluxe": 22 }
+        "2026-10-16": {
+          "Deluxe": 12
+        },
+        "2026-10-17": {
+          "Deluxe": 22
+        },
+        "2026-10-18": {
+          "Deluxe": 22
+        },
+        "2026-10-19": {
+          "Deluxe": 22
+        },
+        "2026-10-20": {
+          "Deluxe": 22
+        },
+        "2026-10-21": {
+          "Deluxe": 22
+        },
+        "2026-10-22": {
+          "Deluxe": 22
+        }
       }
     },
     {
@@ -1803,16 +3501,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 20 }
+        {
+          "name": "AC Room",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 12 },
-        "2026-10-17": { "AC Room": 20 },
-        "2026-10-18": { "AC Room": 20 },
-        "2026-10-19": { "AC Room": 20 },
-        "2026-10-20": { "AC Room": 20 },
-        "2026-10-21": { "AC Room": 20 },
-        "2026-10-22": { "AC Room": 20 }
+        "2026-10-16": {
+          "AC Room": 12
+        },
+        "2026-10-17": {
+          "AC Room": 20
+        },
+        "2026-10-18": {
+          "AC Room": 20
+        },
+        "2026-10-19": {
+          "AC Room": 20
+        },
+        "2026-10-20": {
+          "AC Room": 20
+        },
+        "2026-10-21": {
+          "AC Room": 20
+        },
+        "2026-10-22": {
+          "AC Room": 20
+        }
       }
     },
     {
@@ -1822,16 +3537,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 25 }
+        {
+          "name": "Standard",
+          "totalRooms": 25
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 15 },
-        "2026-10-17": { "Standard": 25 },
-        "2026-10-18": { "Standard": 25 },
-        "2026-10-19": { "Standard": 25 },
-        "2026-10-20": { "Standard": 25 },
-        "2026-10-21": { "Standard": 25 },
-        "2026-10-22": { "Standard": 25 }
+        "2026-10-16": {
+          "Standard": 15
+        },
+        "2026-10-17": {
+          "Standard": 25
+        },
+        "2026-10-18": {
+          "Standard": 25
+        },
+        "2026-10-19": {
+          "Standard": 25
+        },
+        "2026-10-20": {
+          "Standard": 25
+        },
+        "2026-10-21": {
+          "Standard": 25
+        },
+        "2026-10-22": {
+          "Standard": 25
+        }
       }
     },
     {
@@ -1841,16 +3573,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe", "totalRooms": 18 }
+        {
+          "name": "Deluxe",
+          "totalRooms": 18
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe": 10 },
-        "2026-10-17": { "Deluxe": 18 },
-        "2026-10-18": { "Deluxe": 18 },
-        "2026-10-19": { "Deluxe": 18 },
-        "2026-10-20": { "Deluxe": 18 },
-        "2026-10-21": { "Deluxe": 18 },
-        "2026-10-22": { "Deluxe": 18 }
+        "2026-10-16": {
+          "Deluxe": 10
+        },
+        "2026-10-17": {
+          "Deluxe": 18
+        },
+        "2026-10-18": {
+          "Deluxe": 18
+        },
+        "2026-10-19": {
+          "Deluxe": 18
+        },
+        "2026-10-20": {
+          "Deluxe": 18
+        },
+        "2026-10-21": {
+          "Deluxe": 18
+        },
+        "2026-10-22": {
+          "Deluxe": 18
+        }
       }
     },
     {
@@ -1860,16 +3609,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "AC Room", "totalRooms": 22 }
+        {
+          "name": "AC Room",
+          "totalRooms": 22
+        }
       ],
       "availability": {
-        "2026-10-16": { "AC Room": 12 },
-        "2026-10-17": { "AC Room": 22 },
-        "2026-10-18": { "AC Room": 22 },
-        "2026-10-19": { "AC Room": 22 },
-        "2026-10-20": { "AC Room": 22 },
-        "2026-10-21": { "AC Room": 22 },
-        "2026-10-22": { "AC Room": 22 }
+        "2026-10-16": {
+          "AC Room": 12
+        },
+        "2026-10-17": {
+          "AC Room": 22
+        },
+        "2026-10-18": {
+          "AC Room": 22
+        },
+        "2026-10-19": {
+          "AC Room": 22
+        },
+        "2026-10-20": {
+          "AC Room": 22
+        },
+        "2026-10-21": {
+          "AC Room": 22
+        },
+        "2026-10-22": {
+          "AC Room": 22
+        }
       }
     },
     {
@@ -1879,16 +3645,33 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Standard", "totalRooms": 20 }
+        {
+          "name": "Standard",
+          "totalRooms": 20
+        }
       ],
       "availability": {
-        "2026-10-16": { "Standard": 12 },
-        "2026-10-17": { "Standard": 20 },
-        "2026-10-18": { "Standard": 20 },
-        "2026-10-19": { "Standard": 20 },
-        "2026-10-20": { "Standard": 20 },
-        "2026-10-21": { "Standard": 20 },
-        "2026-10-22": { "Standard": 20 }
+        "2026-10-16": {
+          "Standard": 12
+        },
+        "2026-10-17": {
+          "Standard": 20
+        },
+        "2026-10-18": {
+          "Standard": 20
+        },
+        "2026-10-19": {
+          "Standard": 20
+        },
+        "2026-10-20": {
+          "Standard": 20
+        },
+        "2026-10-21": {
+          "Standard": 20
+        },
+        "2026-10-22": {
+          "Standard": 20
+        }
       }
     },
     {
@@ -1898,17 +3681,44 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Deluxe AC", "totalRooms": 30 },
-        { "name": "Suite", "totalRooms": 5 }
+        {
+          "name": "Deluxe AC",
+          "totalRooms": 30
+        },
+        {
+          "name": "Suite",
+          "totalRooms": 5
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe AC": 18, "Suite": 3 },
-        "2026-10-17": { "Deluxe AC": 30, "Suite": 5 },
-        "2026-10-18": { "Deluxe AC": 30, "Suite": 5 },
-        "2026-10-19": { "Deluxe AC": 30, "Suite": 5 },
-        "2026-10-20": { "Deluxe AC": 30, "Suite": 5 },
-        "2026-10-21": { "Deluxe AC": 30, "Suite": 5 },
-        "2026-10-22": { "Deluxe AC": 30, "Suite": 5 }
+        "2026-10-16": {
+          "Deluxe AC": 15,
+          "Suite": 3
+        },
+        "2026-10-17": {
+          "Deluxe AC": 30,
+          "Suite": 5
+        },
+        "2026-10-18": {
+          "Deluxe AC": 30,
+          "Suite": 5
+        },
+        "2026-10-19": {
+          "Deluxe AC": 30,
+          "Suite": 5
+        },
+        "2026-10-20": {
+          "Deluxe AC": 30,
+          "Suite": 5
+        },
+        "2026-10-21": {
+          "Deluxe AC": 30,
+          "Suite": 5
+        },
+        "2026-10-22": {
+          "Deluxe AC": 30,
+          "Suite": 5
+        }
       }
     }
   ]

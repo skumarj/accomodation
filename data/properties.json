@@ -7,13 +7,55 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj-Kachchh",
       "categories": [
-        { "name": "Deluxe AC", "totalRooms": 15 },
-        { "name": "Standard Non-AC", "totalRooms": 25 },
-        { "name": "Suite", "totalRooms": 5 }
+        {
+          "name": "Deluxe AC",
+          "totalRooms": 15
+        },
+        {
+          "name": "Standard Non-AC",
+          "totalRooms": 25
+        },
+        {
+          "name": "Suite",
+          "totalRooms": 5
+        }
       ],
       "availability": {
-        "2026-10-16": { "Deluxe AC": 4, "Standard Non-AC": 10, "Suite": 1 },
-        "2026-10-17": { "Deluxe AC": 6, "Standard Non-AC": 12, "Suite": 2 }
+        "2026-10-16": {
+          "Deluxe AC": 7,
+          "Standard Non-AC": 14,
+          "Suite": 1
+        },
+        "2026-10-17": {
+          "Deluxe AC": 6,
+          "Standard Non-AC": 12,
+          "Suite": 2
+        },
+        "2026-10-18": {
+          "Deluxe AC": 15,
+          "Standard Non-AC": 25,
+          "Suite": 5
+        },
+        "2026-10-19": {
+          "Deluxe AC": 15,
+          "Standard Non-AC": 25,
+          "Suite": 5
+        },
+        "2026-10-20": {
+          "Deluxe AC": 15,
+          "Standard Non-AC": 25,
+          "Suite": 5
+        },
+        "2026-10-21": {
+          "Deluxe AC": 15,
+          "Standard Non-AC": 25,
+          "Suite": 5
+        },
+        "2026-10-22": {
+          "Deluxe AC": 15,
+          "Standard Non-AC": 25,
+          "Suite": 5
+        }
       }
     },
     {
@@ -23,11 +65,20 @@
       "passwordHash": "ae0906fc6507615e2a74e47b9437c90d816d914ae568dd10a92fb99f82417a8b",
       "location": "Bhuj",
       "categories": [
-        { "name": "Dormitory Bed", "totalRooms": 50 },
-        { "name": "Family Hall", "totalRooms": 10 }
+        {
+          "name": "Dormitory Bed",
+          "totalRooms": 50
+        },
+        {
+          "name": "Family Hall",
+          "totalRooms": 10
+        }
       ],
       "availability": {
-        "2026-10-16": { "Dormitory Bed": 20, "Family Hall": 3 }
+        "2026-10-16": {
+          "Dormitory Bed": 20,
+          "Family Hall": 3
+        }
       }
     }
   ]
